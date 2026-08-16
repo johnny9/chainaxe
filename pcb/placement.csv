@@ -1,0 +1,36 @@
+Reference/Block,X_mm,Y_mm,Rotation_deg,Side,Envelope_mm,Placement intent,Release status
+H1,4,4,0,—,M3,Mounting hole,Provisional
+H2,96,4,0,—,M3,Mounting hole,Provisional
+H3,4,66,0,—,M3,Mounting hole,Provisional
+H4,96,66,0,—,M3,Mounting hole,Provisional
+J2 FAN1,13,4.1,0,Top,10x10,Top-edge Molex 0353180420 drawing-derived footprint; cable exits outward,Real-part fit and circuit-view check
+J3 FAN2,33,4.1,0,Top,10x10,Top-edge Molex 0353180420 drawing-derived footprint; cable exits outward,Real-part fit and circuit-view check
+J4 FAN3,53,4.1,0,Top,10x10,Top-edge Molex 0353180420 drawing-derived footprint; cable exits outward,Real-part fit and circuit-view check
+J5 FAN4,71,4.1,0,Top,10x10,Top-edge Molex 0353180420 drawing-derived footprint; cable exits outward,Real-part fit and circuit-view check
+J1 FAN 12V IN,81.4,11.5,0,Top,16x12,Top/right fan band; Molex 0455580003 drawing-derived contact and peg holes; regulated 12V,Real-part fit and circuit-view check
+Q5/Q6 + D4 FAN INPUT PROTECT,87,25,0,Top,20x11,Q5 at 80/23 Q6 at 86/23 and D4 at 96/29; parallel P-FET protection then fan TVS,Select after current/thermal test
+U2 EMC2305,52,24,0,Top,4x4,Central between fan signal routes,Populate
+U8 FAN BUFFER,62,24,0,Top,6.5x5,Between EMC2305 and Q1-Q4,Populate
+Q1-Q4 FAN SINKS,67,15.5,0,Top,20x5,Q1-Q4 at x 58/64/70/76 near fan PWM fan-out,Populate
+U3 LOGIC BUCK,85,33,180,Top,5x6,Right-side compact 12-15V-to-3V3 power cell,Populate
+L1,77.2,33,0,Top,6x6,Immediately beside U3,Populate
+J10 HASHBOARD,3,29,0,Top,18x8,Left edge 2x9; positions 17/18 NC; cable exits left,Real-cable orientation check
+U10/U11/U13 HB ESD,11,37,0,Top,4x12,U10/U11/U13 at y 32/37/42 immediately after J10; nine signals protected,Populate
+U6 HB UART/PLUG,22,35,0,Top,8x6,Behind connector protection; enable defaults inactive,Populate
+U12 HB RESET BUFFER,22,43,0,Top,5x4,Independent reset gate and 33R near J10,Populate
+U7 HB I2C SWITCH,30,44,0,Top,5x4,Behind connector protection; enable defaults inactive,Populate
+U5 HB 3V3 SWITCH,31,36,0,Top,4x3,Near pin 16 and HB_3V3 test point,Populate
+J6 LOGIC 12-15V,3,59,0,Top,10x8,Left/bottom edge low-current input; exact connector and mate still TBD,Stop-order connector selection
+D5 LOGIC TVS,12,53,90,Top,5x4,Bidirectional TVS at J6 input near D1,Select before release
+D1 J6 OR,14,58,0,Top,5x4,J6 reverse-isolated path into LOGIC_IN,Provisional
+D2 JP1 OR,35,57,0,Top,5x4,Optional regulated FAN_12V path into LOGIC_IN,Provisional
+D3 USB OR,97,36,90,Top,5x4,USB VBUS reverse-isolated path into LOGIC_IN,Provisional
+JP1 FAN-TO-LOGIC,28,57,0,Top,8x4,Normally open; close only with regulated 12V on J1,DNP open
+PROFILE/EXP PADS,43,59,0,Top,20x6,GPIO5/GPIO6 profile and expansion test pads,Provisional
+U1 ESP32-S3,64,56.5,180,Top,25.5x18,Bottom edge; corrected pin-1/pin-40 antenna end faces outward,Manufacturer-derived land; RF review
+ANTENNA KEEPOUT,64,66.625,0,—,48x6.75,Board keepout x40-88 y63.25-70 plus module antenna region; no copper parts fasteners or metal,Critical
+J30 USB-C,96.33,50,270,Top,10.64x8.94,Right edge; official KiCad/GCT contact stake and peg geometry,First-article fit check
+U9 USB ESD,88.5,49.5,180,Top,4x3,Immediately behind J30 with C112 local VBUS bypass,Populate
+SW1 BOOT,91,58,0,Top,4x3,Accessible at right/bottom edge,Stop-order exact switch selection
+SW2 RESET,96,60,0,Top,4x3,Accessible at right/bottom edge,Stop-order exact switch selection
+DEBUG PADS,58,62,0,Top,18x4,Bottom-edge programming and power test pads,Provisional

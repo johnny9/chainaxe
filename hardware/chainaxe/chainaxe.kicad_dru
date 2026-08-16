@@ -1,0 +1,23 @@
+(version 1)
+
+# Conservative prototype constraints. Recalculate USB geometry for the exact
+# JLC four-layer stack and recalculate the fan-current path from measured
+# simultaneous startup/stall current before fabrication release.
+
+(rule "Minimum copper clearance"
+  (constraint clearance (min 0.20mm)))
+
+(rule "Minimum track width"
+  (constraint track_width (min 0.20mm)))
+
+(rule "Minimum via size"
+  (constraint via_diameter (min 0.60mm))
+  (constraint hole_size (min 0.30mm)))
+
+(rule "Fan-power placeholder width"
+  (condition "A.NetClass == 'FAN_POWER_PROVISIONAL'")
+  (constraint track_width (min 2.00mm)))
+
+(rule "Logic-power width"
+  (condition "A.NetClass == 'LOGIC_POWER'")
+  (constraint track_width (min 0.50mm)))

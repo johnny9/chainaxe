@@ -1,0 +1,8 @@
+Profile,ASIC,U5 pin-16 switch,U6 UART/PLUG,U7 I2C,U12 reset buffer,RESET series link,Firmware reset policy,Notes
+S19 XP / S19j XP,BM1366,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE,POPULATE 33R only after exact-SKU validation,Profile-controlled after exact-SKU validation,"First-wave target; chip count and baud are per exact SKU"
+S19k Pro,BM1366,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE,POPULATE 33R only after exact-SKU validation,Profile-controlled after exact-SKU validation,"Confirm cable orientation and local-voltage command on a donor board"
+S21,BM1368,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE BUT KEEP DISABLED,DNP / OPEN,NEVER enable or toggle U12,"NoPIC profile; hardware link is open; GPIO4 remains high and HB_RESET stays high impedance"
+S21 Pro / S21 XP / S21+,BM1370,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE,DNP until exact-SKU validation,Exact-SKU policy required,"Do not inherit S21 BM1368 reset behavior without bench confirmation"
+S19 / S19 Pro,BM1398,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE,DNP until driver and profile exist,Unsupported until driver and exact profile exist,"Hardware connector compatible; current ESP-Miner lacks this ASIC driver"
+S19j Pro,BM1362,POPULATE 3V3,POPULATE A=3V3 B=3V3,POPULATE TMUX1511,POPULATE,DNP until driver and profile exist,Unsupported until driver and exact profile exist,"Hardware connector compatible; current ESP-Miner lacks this ASIC driver"
+Unknown 16-used cable target,Unknown,OFF,DISABLED,DISABLED,DISABLED,DNP / OPEN,No reset activity,"J10 remains fitted but pin 16 and all active signal drivers stay off until identified"

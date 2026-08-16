@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ChainAxe")(type "KiCad")(uri "${KIPRJMOD}/ChainAxe.pretty")(options "")(descr "ChainAxe project-local manufacturer-derived and audited footprints"))
+)

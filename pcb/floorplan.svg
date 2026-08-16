@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">ChainAxe Rev A.1 PCB floorplan</title>
+  <desc id="desc">A 100 by 70 millimeter four-layer S19 and S21 controller board. Four 12 volt fan connectors and their high-current input occupy the top edge. The 18-position hashboard connector is at left, a separate 12 to 15 volt logic input and expansion area are at lower left, and an ESP32-S3 with antenna keepout occupies the lower right. There is no PSU-control interface.</desc>
+  <style>
+    .board { fill:#102a2a; stroke:#80d8c5; stroke-width:4; }
+    .zone { stroke-width:2; rx:12; ry:12; }
+    .fan { fill:#5c3117; stroke:#ffb15c; }
+    .power { fill:#4a244c; stroke:#e694ff; }
+    .logic { fill:#173c5c; stroke:#70c4ff; }
+    .iface { fill:#314a19; stroke:#b6e468; }
+    .option { fill:#3d3d3d; stroke:#d1d1d1; stroke-dasharray:8 6; }
+    .keepout { fill:#5b1f28; fill-opacity:.58; stroke:#ff7988; stroke-dasharray:10 8; }
+    .label { fill:#f5fbfa; font:700 18px system-ui,sans-serif; text-anchor:middle; }
+    .small { fill:#d9eeee; font:14px system-ui,sans-serif; text-anchor:middle; }
+    .tiny { fill:#d9eeee; font:12px system-ui,sans-serif; text-anchor:middle; }
+    .edge { fill:#c8f7ef; font:16px system-ui,sans-serif; }
+    .warn { fill:#ffdc8a; font:700 13px system-ui,sans-serif; text-anchor:middle; }
+    .dim { stroke:#85a6a0; stroke-width:2; marker-start:url(#arrow); marker-end:url(#arrow); }
+    .dimtext { fill:#bcd3ce; font:15px system-ui,sans-serif; text-anchor:middle; }
+    .hole { fill:#091515; stroke:#d8ede8; stroke-width:3; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#85a6a0"/></marker>
+  </defs>
+
+  <rect width="1200" height="840" fill="#071314"/>
+  <text x="600" y="40" class="label" style="font-size:26px">ChainAxe — Rev A.1 floorplan</text>
+  <text x="600" y="67" class="small">S19 / S21 · 100 × 70 mm · component side · placement concept, not a CPL</text>
+
+  <rect x="100" y="100" width="1000" height="700" class="board" rx="10"/>
+  <circle cx="140" cy="140" r="18" class="hole"/><circle cx="1060" cy="140" r="18" class="hole"/>
+  <circle cx="140" cy="760" r="18" class="hole"/><circle cx="1060" cy="760" r="18" class="hole"/>
+  <text x="140" y="145" class="small">M3</text><text x="1060" y="145" class="small">M3</text>
+  <text x="140" y="765" class="small">M3</text><text x="1060" y="765" class="small">M3</text>
+
+  <rect x="115" y="110" width="970" height="150" class="zone fan" opacity=".35"/>
+  <text x="520" y="245" class="edge">HIGH-CURRENT FAN BAND — REGULATED 12 V / GND ON L1 + L4</text>
+
+  <g class="zone fan">
+    <rect x="180" y="115" width="110" height="90"/><rect x="350" y="115" width="110" height="90"/>
+    <rect x="520" y="115" width="110" height="90"/><rect x="690" y="115" width="110" height="90"/>
+  </g>
+  <text x="235" y="151" class="label">FAN 1</text><text x="235" y="178" class="small">G 12 T P</text>
+  <text x="405" y="151" class="label">FAN 2</text><text x="405" y="178" class="small">G 12 T P</text>
+  <text x="575" y="151" class="label">FAN 3</text><text x="575" y="178" class="small">G 12 T P</text>
+  <text x="745" y="151" class="label">FAN 4</text><text x="745" y="178" class="small">G 12 T P</text>
+
+  <rect x="830" y="118" width="175" height="115" class="zone fan"/>
+  <text x="917" y="153" class="label">J1 FAN 12 V</text>
+  <text x="917" y="180" class="small">4–6: V · 1–3: G</text>
+  <text x="917" y="207" class="warn">REGULATED 12 V ONLY</text>
+  <text x="917" y="226" class="tiny">Q5/Q6 reverse protection</text>
+
+  <rect x="500" y="280" width="145" height="105" class="zone logic"/>
+  <text x="572" y="318" class="label">EMC2305</text><text x="572" y="345" class="small">fan control + tach</text>
+  <rect x="660" y="280" width="145" height="105" class="zone logic"/>
+  <text x="732" y="313" class="label">FAN SAFE</text>
+  <text x="732" y="339" class="tiny">LVC126 + 4×2N7002</text><text x="732" y="362" class="tiny">released = fan full speed</text>
+
+  <rect x="820" y="275" width="235" height="135" class="zone power"/>
+  <text x="937" y="312" class="label">3.3 V LOGIC POWER</text>
+  <text x="937" y="339" class="small">AP64501 + L1 + caps</text>
+  <text x="937" y="362" class="small">J6 / USB / optional J1 OR</text>
+  <text x="937" y="385" class="tiny">tight SW loop · keep clear of antenna</text>
+
+  <rect x="105" y="325" width="130" height="195" class="zone iface"/>
+  <text x="170" y="366" class="label">J10</text>
+  <text x="170" y="393" class="small">2×9 hashboard</text>
+  <text x="170" y="416" class="small">pins 1–16 used</text>
+  <text x="170" y="439" class="small">17 / 18 NC</text>
+  <text x="170" y="476" class="tiny">cable exits left</text>
+  <rect x="250" y="325" width="235" height="195" class="zone iface"/>
+  <text x="367" y="363" class="label">HB INTERFACE</text>
+  <text x="367" y="390" class="small">ESD + AXC4T774</text>
+  <text x="367" y="414" class="small">TMUX1511 + gated 3.3 V</text>
+  <text x="367" y="447" class="small">independent RESET buffer</text>
+  <text x="367" y="474" class="warn">S21 NoPIC: RESET link open</text>
+
+  <rect x="105" y="565" width="135" height="105" class="zone power"/>
+  <text x="172" y="600" class="label">J6 LOGIC IN</text>
+  <text x="172" y="628" class="tiny">12–15 V logic</text>
+  <rect x="255" y="565" width="185" height="105" class="zone power"/>
+  <text x="347" y="598" class="label">SOURCE OR</text>
+  <text x="347" y="624" class="small">J6 · USB · JP1/diode</text>
+  <text x="347" y="649" class="warn">JP1: J1 MUST BE 12 V</text>
+  <rect x="455" y="565" width="175" height="105" class="zone option"/>
+  <text x="542" y="600" class="label">PROFILE / EXP</text>
+  <text x="542" y="628" class="small">GPIO5 · GPIO6 · test pads</text>
+  <text x="542" y="651" class="tiny">no PSU interface fitted</text>
+
+  <rect x="690" y="470" width="260" height="235" class="zone logic"/>
+  <text x="820" y="518" class="label">ESP32-S3</text>
+  <text x="820" y="546" class="small">Wi-Fi · native USB · ESP-Miner</text>
+  <text x="820" y="573" class="small">profile-gated HB I/O</text>
+  <text x="820" y="600" class="small">fan fault manager</text>
+  <rect x="670" y="650" width="300" height="140" class="zone keepout"/>
+  <text x="820" y="699" class="label">ANTENNA KEEPOUT</text>
+  <text x="820" y="727" class="small">15 mm · no copper / metal / cable</text>
+  <rect x="1010" y="500" width="80" height="100" class="zone logic"/>
+  <text x="1050" y="538" class="label">USB-C</text><text x="1050" y="564" class="small">logic +</text><text x="1050" y="585" class="small">debug</text>
+
+  <line x1="100" y1="815" x2="1100" y2="815" class="dim"/>
+  <text x="600" y="810" class="dimtext">100 mm</text>
+  <line x1="70" y1="100" x2="70" y2="800" class="dim"/>
+  <text x="45" y="455" class="dimtext" transform="rotate(-90 45 455)">70 mm</text>
+</svg>

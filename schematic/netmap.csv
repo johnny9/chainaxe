@@ -1,0 +1,23 @@
+Block,ESP32-S3 GPIO,ESP net,Intermediate,External net,Default safe state,Rev A.1 population
+Hashboard UART TX,17,HB_TX_3V3,SN74AXC4T774 + 33R,HB_TX,U6 disabled; connector-side optional DNP bias,POPULATE
+Hashboard UART RX,18,HB_RX_3V3,SN74AXC4T774 + optional 33R,HB_RX,U6 disabled,POPULATE
+Hashboard plug detect,12,HB_PLUG_3V3,SN74AXC4T774,HB_PLUG,U6 disabled; ESP-side weak pulldown,POPULATE
+Hashboard translator enable,7,HB_XLAT_OE_N,SN74AXC4T774 /OE,—,100k pullup disables U6,POPULATE
+Hashboard reset command,1,HB_RESET_CMD,SN74LVC1G125 + 33R,HB_RESET,Reset output high impedance; connector-side bias pads DNP,POPULATE
+Hashboard reset enable,4,HB_RESET_OE_N,SN74LVC1G125 /OE,—,10k pullup disables U12; default S21 assembly also leaves RESET_ENABLE_LINK open and firmware never enables,POPULATE
+Hashboard logic power,10,HB_IO_PWR_EN,TPS22917 ON,HB_3V3 / J10.16,100k pulldown keeps switch off,POPULATE
+Hashboard I2C data,14,HB_SDA_3V3,TMUX1511 channel 2,HB_SDA,U7 powered from HB_3V3; powered-off isolation; pullups split by domain,POPULATE
+Hashboard I2C clock,21,HB_SCL_3V3,TMUX1511 channel 1,HB_SCL,U7 powered from HB_3V3; powered-off isolation; pullups split by domain,POPULATE
+Hashboard I2C enable,9,HB_I2C_EN,TMUX1511 SEL1 + SEL2,—,100k pulldown disables both used channels; unused selects grounded,POPULATE
+Fan I2C data,47,FAN_SDA,4.7k pullup,EMC2305 SMDATA,High via pullup,POPULATE
+Fan I2C clock,48,FAN_SCL,4.7k pullup,EMC2305 SMCLK,High via pullup,POPULATE
+Fan alert,13,FAN_ALERT_N,4.7k pullup,EMC2305 ALERT#,High/inactive,POPULATE
+Fan arm,8,FAN_ARM,SN74LVC126 enables,—,100k pulldown disables U8; PWM floats so compatible fans default full speed,POPULATE
+Rail monitor,11,RAIL_MON,Stuff-option divider + RC,FAN_12V or LOGIC_IN monitor,ADC input low/defined,PROVISIONAL
+Expansion pad 1,5,EXP_GPIO5,Test pad,—,Input/high impedance,POPULATE PAD
+Expansion pad 2,6,EXP_GPIO6,Test pad,—,Input/high impedance,POPULATE PAD
+Native USB D-,19,USB_DN,ESD + 22R,USB-C D-,USB disconnected,POPULATE
+Native USB D+,20,USB_DP,ESD + 22R,USB-C D+,USB disconnected,POPULATE
+Boot strap,0,BOOT_N,Button to GND,—,External pullup/default high,POPULATE
+Debug TX,43,DBG_TX,Test pad/header,—,Idle high,OPTIONAL
+Debug RX,44,DBG_RX,Test pad/header,—,Weak pullup/unused,OPTIONAL
