@@ -2917,172 +2917,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -10516,145 +10350,6 @@
 			(symbol "PWR_FLAG_1_1")
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Fan 2"
 		(exclude_from_sim no)
@@ -11232,6 +10927,10 @@
 		(uuid "b016f188-4b6b-46fe-a581-d0ebfb186f33")
 	)
 	(no_connect
+		(at 55.88 232.41)
+		(uuid "bb121fd7-ef47-434b-a5e6-5a647c24d380")
+	)
+	(no_connect
 		(at 344.17 210.82)
 		(uuid "bba56906-a807-4fd2-ab01-10ca7e35e6ae")
 	)
@@ -11242,6 +10941,10 @@
 	(no_connect
 		(at 104.14 203.2)
 		(uuid "d584e796-57fd-47cf-be1e-4db32f0df420")
+	)
+	(no_connect
+		(at 55.88 255.27)
+		(uuid "fabbfb73-4cff-419e-b6e4-cf72f8ed27ad")
 	)
 	(no_connect
 		(at 104.14 205.74)
@@ -11600,16 +11303,6 @@
 			(type default)
 		)
 		(uuid "1748390e-ee8c-43ab-b573-602e27c6c775")
-	)
-	(wire
-		(pts
-			(xy 130.81 251.46) (xy 133.35 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18082f20-828a-4684-9478-251353b2f496")
 	)
 	(wire
 		(pts
@@ -12263,16 +11956,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 255.27) (xy 53.34 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbacc7b-b7d6-49e0-878f-14970a686242")
-	)
-	(wire
-		(pts
 			(xy 218.44 182.88) (xy 220.98 182.88)
 		)
 		(stroke
@@ -12680,16 +12363,6 @@
 			(type default)
 		)
 		(uuid "6b6159e3-1b22-4819-b3a2-0f44f5c8e4bd")
-	)
-	(wire
-		(pts
-			(xy 123.19 251.46) (xy 120.65 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba53871-43b0-4292-81b0-6f1d47d815ca")
 	)
 	(wire
 		(pts
@@ -13123,16 +12796,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 238.76) (xy 133.35 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b70eb33-15a5-405e-9254-d3e63be4fef7")
-	)
-	(wire
-		(pts
 			(xy 60.96 163.83) (xy 60.96 166.37)
 		)
 		(stroke
@@ -13230,16 +12893,6 @@
 			(type default)
 		)
 		(uuid "9291949d-7d85-418d-968e-9f50e5bf5e2a")
-	)
-	(wire
-		(pts
-			(xy 55.88 232.41) (xy 53.34 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936a69fd-ef69-4a7c-81ee-5a150d315cdd")
 	)
 	(wire
 		(pts
@@ -13500,16 +13153,6 @@
 			(type default)
 		)
 		(uuid "a6cab566-a58f-4820-8ae6-d49a49e8f50d")
-	)
-	(wire
-		(pts
-			(xy 123.19 238.76) (xy 120.65 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a74e19c4-2380-49a3-87d7-ca1093f0cdee")
 	)
 	(wire
 		(pts
@@ -14413,16 +14056,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 256.54) (xy 111.76 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e935c1a2-7d0f-4f72-856a-f77305fbdba7")
-	)
-	(wire
-		(pts
 			(xy 335.28 162.56) (xy 344.17 162.56)
 		)
 		(stroke
@@ -14701,17 +14334,7 @@
 		)
 		(uuid "004cd826-c102-4161-ae59-f642063f8b58")
 	)
-	(label "12V"
-		(at 133.35 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00e56db6-fe95-44a7-a814-b3945dd4737a")
-	)
-	(label "RXD1"
+	(label "PLUG1"
 		(at 101.6 190.5 180)
 		(effects
 			(font
@@ -14761,7 +14384,7 @@
 		)
 		(uuid "088d780d-0239-4b54-93f9-df9a7267dec8")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 120.65 251.46 180)
 		(effects
 			(font
@@ -14851,7 +14474,7 @@
 		)
 		(uuid "19bf8050-032a-4f2a-9b0e-6fc2f09020c1")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 162.56 233.68 180)
 		(effects
 			(font
@@ -15091,7 +14714,7 @@
 		)
 		(uuid "359299e8-1c65-46ec-b74c-125be7c9fd80")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 120.65 238.76 180)
 		(effects
 			(font
@@ -15101,7 +14724,7 @@
 		)
 		(uuid "35b0fc46-6647-41e5-85fd-600d568f2487")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 162.56 259.08 180)
 		(effects
 			(font
@@ -15191,7 +14814,7 @@
 		)
 		(uuid "46a94654-ca90-4dfc-86f3-78a55d495230")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 144.78 242.57 180)
 		(effects
 			(font
@@ -15301,7 +14924,7 @@
 		)
 		(uuid "5bf2dabb-43b0-4450-b420-e715f71dcdef")
 	)
-	(label "TXD0"
+	(label "RXD1"
 		(at 101.6 195.58 180)
 		(effects
 			(font
@@ -15371,7 +14994,7 @@
 		)
 		(uuid "678879d1-2ab1-4bef-bf99-5bb484df6c4e")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 187.96 243.84 180)
 		(effects
 			(font
@@ -15391,7 +15014,7 @@
 		)
 		(uuid "72de6c62-56e7-4ad0-b454-736b0628444e")
 	)
-	(label "SCL"
+	(label "TXD0"
 		(at 220.98 182.88 180)
 		(effects
 			(font
@@ -15541,7 +15164,7 @@
 		)
 		(uuid "8b722523-33a6-4103-a372-80bacdac4f8a")
 	)
-	(label "TXD1"
+	(label "SDA"
 		(at 101.6 187.96 180)
 		(effects
 			(font
@@ -15551,7 +15174,7 @@
 		)
 		(uuid "8c095368-d789-4edd-93ed-c5839581e04b")
 	)
-	(label "RST1"
+	(label "TXD1"
 		(at 101.6 193.04 180)
 		(effects
 			(font
@@ -15771,7 +15394,7 @@
 		)
 		(uuid "ac6a7264-a099-45b6-b6e2-de7c1a4335cc")
 	)
-	(label "SDA"
+	(label "RXD0"
 		(at 220.98 185.42 180)
 		(effects
 			(font
@@ -15791,7 +15414,7 @@
 		)
 		(uuid "af31239b-4194-49dc-8402-12f9a3db4b1b")
 	)
-	(label "VIN_3V3"
+	(label "12V"
 		(at 152.4 242.57 180)
 		(effects
 			(font
@@ -15871,7 +15494,7 @@
 		)
 		(uuid "bc05026c-d55a-4957-b733-5ac86731e701")
 	)
-	(label "PLUG2"
+	(label "RST2"
 		(at 220.98 208.28 180)
 		(effects
 			(font
@@ -15881,7 +15504,7 @@
 		)
 		(uuid "be11ff7d-5164-4818-8c9a-547f09b33c6c")
 	)
-	(label "RXD0"
+	(label "RST1"
 		(at 101.6 198.12 180)
 		(effects
 			(font
@@ -15891,7 +15514,7 @@
 		)
 		(uuid "c2bc35d5-4e84-433b-8b46-bb5bc292ab63")
 	)
-	(label "RXD2"
+	(label "TXD2"
 		(at 220.98 203.2 180)
 		(effects
 			(font
@@ -15931,7 +15554,7 @@
 		)
 		(uuid "c91b295d-0578-4481-9cc7-c328dc651d3f")
 	)
-	(label "PLUG1"
+	(label "SCL"
 		(at 101.6 172.72 180)
 		(effects
 			(font
@@ -15961,7 +15584,7 @@
 		)
 		(uuid "cc1d2134-5e12-44da-9b49-73ed1a1c5132")
 	)
-	(label "RST2"
+	(label "RXD2"
 		(at 220.98 205.74 180)
 		(effects
 			(font
@@ -16031,7 +15654,7 @@
 		)
 		(uuid "d6dc25f2-5649-47ac-8fcb-6d78e622038c")
 	)
-	(label "TXD2"
+	(label "PLUG2"
 		(at 220.98 200.66 180)
 		(effects
 			(font
@@ -17923,83 +17546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 53.34 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22844d0f-19d6-49df-b10a-6dbf504c1e1c")
-		(property "Reference" "#PWR018"
-			(at 53.34 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 53.34 228.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 53.34 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92d321da-c52d-4082-9219-1242e3124c44")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 182.88 256.54 0)
 		(unit 1)
@@ -19132,83 +18678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 111.76 259.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a9cee8a-6c22-47f2-8f06-a21619113cfa")
-		(property "Reference" "#PWR027"
-			(at 111.76 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 111.76 255.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 111.76 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdbad1a8-d4ff-491a-93aa-8072dcc74d48")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 325.12 223.52 90)
 		(unit 1)
@@ -19592,83 +19061,6 @@
 			(project "bitcart"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005d31f999"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 111.76 256.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49901e21-c3e1-4cbe-88b6-be6090d5469f")
-		(property "Reference" "#FLG02"
-			(at 111.76 254.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 111.76 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 111.76 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02234bdb-6fc1-403b-a54d-f67bd487807c")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -22071,83 +21463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 133.35 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72c8d3a5-6d01-4a85-a2a6-712857b5d018")
-		(property "Reference" "#PWR023"
-			(at 133.35 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 133.35 247.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 133.35 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b271694-f4b5-43f2-b765-a8bdabe168ba")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 125.73 40.64 180)
 		(unit 1)
@@ -22584,97 +21899,6 @@
 			(project "chainaxe"
 				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 127 238.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ffa0462-2330-4a36-8f94-5664e564bb6d")
-		(property "Reference" "D2"
-			(at 127 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 127 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 127 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 127 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SS14"
-			(at 127 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-		)
-		(property "LCSC" "C2480"
-			(at 127 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-		)
-		(pin "1"
-			(uuid "53fe2ed7-e6f2-409b-93fd-b43b8fc13e88")
-		)
-		(pin "2"
-			(uuid "0d93e7bb-9d2a-4171-9455-dd42beebdf31")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -26600,83 +25824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 53.34 255.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1d8a29c-ac83-4c87-88ed-88a4563a0b69")
-		(property "Reference" "#PWR019"
-			(at 53.34 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 53.34 251.714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 53.34 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5dff18a-eee4-44d4-8e57-26177752b41f")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_7")
 		(lib_id "Device:C")
 		(at 236.22 251.46 0)
@@ -27031,97 +26178,6 @@
 			(project "chainaxe"
 				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 127 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df9e753c-ff6b-4f74-9472-d2d9caf7287e")
-		(property "Reference" "D3"
-			(at 127 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 127 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 127 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 127 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SS14"
-			(at 127 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-		)
-		(property "LCSC" "C2480"
-			(at 127 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-		)
-		(pin "1"
-			(uuid "855b4047-771f-4016-9781-68f9a232dc3f")
-		)
-		(pin "2"
-			(uuid "fe100c62-7fa3-4eec-9685-42380c75a427")
-		)
-		(instances
-			(project "chainaxe"
-				(path "/dad32d3d-71e4-4236-b088-31b84f800e98"
-					(reference "D3")
 					(unit 1)
 				)
 			)
