@@ -14384,16 +14384,6 @@
 		)
 		(uuid "088d780d-0239-4b54-93f9-df9a7267dec8")
 	)
-	(label "12V"
-		(at 120.65 251.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0955e9af-5812-47df-a0e6-96e2d00aebf3")
-	)
 	(label "SDA"
 		(at 43.18 204.47 0)
 		(effects
@@ -14713,16 +14703,6 @@
 			(justify left bottom)
 		)
 		(uuid "359299e8-1c65-46ec-b74c-125be7c9fd80")
-	)
-	(label "12V"
-		(at 120.65 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35b0fc46-6647-41e5-85fd-600d568f2487")
 	)
 	(label "12V"
 		(at 162.56 259.08 180)
