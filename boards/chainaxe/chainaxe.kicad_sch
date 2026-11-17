@@ -7055,7 +7055,7 @@
 		)
 		(uuid "48ef933c-51e0-47e9-9d52-a26a2648c3f4")
 	)
-	(label "5V"
+	(label "3V3"
 		(at 123.19 33.02 180)
 		(effects
 			(font
