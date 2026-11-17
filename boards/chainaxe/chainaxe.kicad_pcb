@@ -7927,14 +7927,14 @@
 		(layer "F.Cu")
 		(uuid "5688d19d-59ed-4682-940d-8acb56b47a31")
 		(transform
-			(translate 134 123.5)
+			(translate 133.6 122.6)
 			(rotate 0)
 			(scale 1 1)
 		)
 		(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW1"
-			(at -42 -0.25 0)
+			(at -41.6 0.65 0)
 			(layer "F.SilkS")
 			(uuid "36a859cc-f863-4525-99fc-1537f613232f")
 			(effects
@@ -7945,7 +7945,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at -42 7.25 0)
+			(at -41.6 8.15 0)
 			(layer "F.Fab")
 			(uuid "ff5e8697-c734-452f-a850-0316e952f424")
 			(effects
@@ -7956,7 +7956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -42 3.5 0)
+			(at -41.6 4.4 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7969,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at -42 3.5 0)
+			(at -41.6 4.4 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7985,7 +7985,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cae0c317-8e1e-4018-b19e-dc4e84aae63b")
+			(uuid "0db5d52e-f2ef-4eb6-82f0-f1d2bff37360")
 			(effects
 				(font
 					(size 1 1)
@@ -7996,7 +7996,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d25a25d-4c69-419d-8b7d-940d64dae597")
+			(uuid "2cdf4467-6465-4b72-9a1f-424d10ced241")
 			(effects
 				(font
 					(size 1 1)
@@ -25528,98 +25528,6 @@
 		(layer "F.Cu")
 		(net "Net-(U4-CLK)")
 		(uuid "fc9e5859-117c-4806-8c0d-d003b60abd1a")
-	)
-	(segment
-		(start 149.032 69.0175)
-		(end 149.032 67.6805)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "0e9e6cdc-8c26-4e13-b7cd-add38a1c4d20")
-	)
-	(segment
-		(start 148.561558 69.887942)
-		(end 148.45547 69.887942)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "3e436f2a-9612-4ae5-87c9-a079b0904d66")
-	)
-	(segment
-		(start 149.232 69.2175)
-		(end 149.032 69.0175)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "78a0ba3f-0f0a-410b-be3c-a1cb540b4a74")
-	)
-	(segment
-		(start 149.232 69.2175)
-		(end 148.561558 69.887942)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "9b0ead7b-8646-489b-8b53-3c44a26ed4f4")
-	)
-	(segment
-		(start 146.00547 69.887942)
-		(end 146 69.882473)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "ac63a1f0-6e32-460a-b0f2-16a3544650a5")
-	)
-	(segment
-		(start 146 69.882473)
-		(end 146 69.100001)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/3V3_EN")
-		(uuid "c0ee9669-3019-4f4a-aa36-665c24b70de5")
-	)
-	(via
-		(at 148.45547 69.887942)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "/3V3_EN")
-		(uuid "25d37514-9e0c-4e64-b63e-59a285716363")
-	)
-	(via
-		(at 146.00547 69.887942)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "/3V3_EN")
-		(uuid "505ed725-4bfa-4327-92fd-3c85d8ccf0ed")
-	)
-	(segment
-		(start 148.45547 69.887942)
-		(end 146.00547 69.887942)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/3V3_EN")
-		(uuid "99f35f07-1400-4491-b4a2-adfcb0ec93e0")
 	)
 	(segment
 		(start 134.584999 65.525001)
