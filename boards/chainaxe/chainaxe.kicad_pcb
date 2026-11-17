@@ -7927,14 +7927,14 @@
 		(layer "F.Cu")
 		(uuid "5688d19d-59ed-4682-940d-8acb56b47a31")
 		(transform
-			(translate 128.2 131.3)
+			(translate 153 131)
 			(rotate 0)
 			(scale 1 1)
 		)
 		(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW1"
-			(at -36.2 -8.05 0)
+			(at -61 -7.75 0)
 			(layer "F.SilkS")
 			(uuid "36a859cc-f863-4525-99fc-1537f613232f")
 			(effects
@@ -7945,7 +7945,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at -36.2 -0.55 0)
+			(at -61 -0.25 0)
 			(layer "F.Fab")
 			(uuid "ff5e8697-c734-452f-a850-0316e952f424")
 			(effects
@@ -7956,7 +7956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.2 -4.3 0)
+			(at -61 -4 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7969,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at -36.2 -4.3 0)
+			(at -61 -4 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7985,7 +7985,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74d9eb3e-c161-4860-8d97-ec98c822dd4b")
+			(uuid "47611a21-68ae-4557-9967-008f083fb64e")
 			(effects
 				(font
 					(size 1 1)
@@ -7996,7 +7996,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a48f5174-c78a-49e6-ac8f-927d90066209")
+			(uuid "f51fa917-336a-466c-a46c-4154d760acb6")
 			(effects
 				(font
 					(size 1 1)
@@ -26018,6 +26018,70 @@
 		(layer "F.Cu")
 		(net "/CC1")
 		(uuid "fb505ec1-5a45-48de-867a-180caa7f020b")
+	)
+	(segment
+		(start 139.75 124.925)
+		(end 125.075 110.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "0500eec1-d467-4119-88fe-2428d6847d43")
+	)
+	(segment
+		(start 139.75 127.01)
+		(end 139.75 127.675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "0e3e1edc-7f37-49f4-9efa-83d279be1e2e")
+	)
+	(segment
+		(start 139.75 127.675)
+		(end 139.975357 127.900357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "4ed8ccb8-6db8-4e51-870b-49d2ee8f5aff")
+	)
+	(segment
+		(start 125.075 110.25)
+		(end 124.75 110.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "6acf10e7-a439-4c0e-ad74-2dc2078372b5")
+	)
+	(segment
+		(start 140.75 127.675714)
+		(end 140.75 127.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "a17e5f2e-9a25-4cbd-bcd9-b56712941a65")
+	)
+	(segment
+		(start 139.75 127.01)
+		(end 139.75 124.925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "bf6bf645-7d4b-4ea2-9702-e69e1ab28561")
+	)
+	(segment
+		(start 139.975357 127.900357)
+		(end 140.525357 127.900357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "e40ab854-992e-42e8-abb9-51bf186722d3")
+	)
+	(segment
+		(start 140.525357 127.900357)
+		(end 140.75 127.675714)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_DP")
+		(uuid "f59d8a38-9448-4c1f-9807-daadfb0fe1d6")
 	)
 	(segment
 		(start 141.75 126.284226)
