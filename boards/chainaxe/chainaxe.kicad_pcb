@@ -26330,6 +26330,37 @@
 		)
 	)
 	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(uuid "6268f93f-5b0e-4b05-ab36-237346ca8326")
+		(name "ESP32 antenna keepout")
+		(hatch edge 0)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 71.5 127) (xy 90.5 127) (xy 90.5 135) (xy 71.5 135)
+			)
+		)
+	)
+	(zone
 		(layer "F.Mask")
 		(uuid "bc6c2a81-aec2-41b6-abcf-fbd41e967884")
 		(hatch edge 0.5)
