@@ -24574,14 +24574,6 @@
 		(uuid "4e860cc0-ed43-46ef-b543-a04573f7c26d")
 	)
 	(segment
-		(start 155.232 109.275)
-		(end 154.184386 108.227386)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/12V")
-		(uuid "547d22f2-bbc0-45a4-a6e6-70b431b02001")
-	)
-	(segment
 		(start 150.25 108.6)
 		(end 149.55 109.3)
 		(width 0.4)
