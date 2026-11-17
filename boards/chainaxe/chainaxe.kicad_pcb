@@ -4048,7 +4048,31 @@
 				)
 			)
 		)
-		(property "LCSC" "C437089"
+		(property "PARTNO" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e3efe4-4945-4e5e-9471-1eb2ac910275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M2026V-2x9P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d672b0c-86a8-4b12-9dcd-512c37c55c41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492586"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4096,7 +4120,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C437089"
+		(property "JLCPCB" "C492586"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18829,7 +18853,31 @@
 				)
 			)
 		)
-		(property "LCSC" "C437089"
+		(property "PARTNO" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea9c1e24-2d62-435d-a1cf-496daf543d62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M2026V-2x9P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8803393a-c0b8-4fec-9c8c-89dee2c5376f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492586"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18877,7 +18925,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C437089"
+		(property "JLCPCB" "C492586"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21502,7 +21550,31 @@
 				)
 			)
 		)
-		(property "LCSC" "C437089"
+		(property "PARTNO" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edffd493-a26b-45d9-a2ea-01d1b490101f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "M2026V-2x9P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c58f2132-f12b-4770-821c-6c4f09270674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492586"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21550,7 +21622,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C437089"
+		(property "JLCPCB" "C492586"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
