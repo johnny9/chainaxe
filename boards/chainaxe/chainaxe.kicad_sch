@@ -16489,7 +16489,7 @@
 		)
 		(uuid "088d780d-0239-4b54-93f9-df9a7267dec8")
 	)
-	(label "FAN_PWM2"
+	(label "FAN_PWM3"
 		(at 101.6 208.28 180)
 		(effects
 			(font
@@ -16649,7 +16649,7 @@
 		)
 		(uuid "200d276c-b491-4092-bc51-6aa08f83d9f9")
 	)
-	(label "FAN_PWM3"
+	(label "FAN_PWM2"
 		(at 101.6 205.74 180)
 		(effects
 			(font
@@ -17219,7 +17219,7 @@
 		)
 		(uuid "785115c8-e574-431d-833a-b409d45cb11d")
 	)
-	(label "FAN_PWM4"
+	(label "FAN_PWM1"
 		(at 101.6 203.2 180)
 		(effects
 			(font
@@ -17809,7 +17809,7 @@
 		)
 		(uuid "d08fd875-0dcd-41a2-83ba-fd5c0581d00c")
 	)
-	(label "FAN_PWM1"
+	(label "FAN_PWM4"
 		(at 101.6 185.42 180)
 		(effects
 			(font
