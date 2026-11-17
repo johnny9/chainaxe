@@ -1,0 +1,18 @@
+{
+  "kind": "pcb",
+  "name": "chainaxe control board",
+  "source": "chainaxe.kicad_pcb",
+  "qty": 5,
+  "options": {
+    "layers": 4,
+    "thickness_mm": 1.6,
+    "color": "green",
+    "finish": "enig",
+    "copper_oz": 1
+  },
+  "features": {
+    "width_mm": 110.0,
+    "height_mm": 100.0,
+    "min_drill_mm": 0.3
+  }
+}
