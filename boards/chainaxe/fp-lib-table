@@ -3,4 +3,5 @@
   (lib (name "bitcrane")(type "KiCad")(uri "${KIPRJMOD}/bitcrane.pretty")(options "")(descr ""))
   (lib (name "bitcart")(type "KiCad")(uri "${KIPRJMOD}/bitcart.pretty")(options "")(descr ""))
   (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.pretty")(options "")(descr ""))
+  (lib (name "chainaxe")(type "KiCad")(uri "${KIPRJMOD}/chainaxe.pretty")(options "")(descr ""))
 )

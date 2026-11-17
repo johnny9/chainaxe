@@ -21496,6 +21496,60 @@
 			)
 		)
 	)
+	(footprint "chainaxe:Silk_ChainAxe"
+		(layer "F.Cu")
+		(uuid "f613a5db-6f80-413b-9697-aaf3c3c634d9")
+		(transform
+			(translate 88 85)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(property "Reference" "LOGO1"
+			(at -88 -85 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c0ba8233-f240-4d0d-a78a-b4fdb5022881")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fa7af5a3-f36e-4a07-be07-f2de3a0a15f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e500031-094e-4a03-8abc-0cd7b83e6bad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b514885-4db2-4594-aa61-252a301d35b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+	)
 	(footprint "bitcart:CONN-TH_X2026WV-2-09D-46SN"
 		(layer "F.Cu")
 		(uuid "f75a4700-4f45-47af-84f9-faddffd59137")
