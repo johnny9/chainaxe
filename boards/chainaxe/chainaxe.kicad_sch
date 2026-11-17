@@ -14851,16 +14851,6 @@
 		)
 		(uuid "19bf8050-032a-4f2a-9b0e-6fc2f09020c1")
 	)
-	(label "RXD0"
-		(at 101.6 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1adbd7b4-80ed-46b6-be05-efe32f6e8afd")
-	)
 	(label "VIN_3V3"
 		(at 162.56 233.68 180)
 		(effects
