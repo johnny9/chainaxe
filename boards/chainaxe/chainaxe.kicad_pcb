@@ -3736,14 +3736,14 @@
 		(layer "F.Cu")
 		(uuid "22c415eb-51e2-402c-8363-68ba8ccf98bf")
 		(transform
-			(translate 97 110)
+			(translate 95.6 131.1)
 			(rotate 0)
 			(scale 1 1)
 		)
 		(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -3.75 0)
+			(at 1.4 -24.85 0)
 			(layer "F.SilkS")
 			(uuid "081d8294-2140-4528-9a65-95130452efe4")
 			(effects
@@ -3754,7 +3754,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 0 3.75 0)
+			(at 1.4 -17.35 0)
 			(layer "F.Fab")
 			(uuid "4eced707-c52c-45af-a520-e3a8688abd77")
 			(effects
@@ -3765,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29 17 0)
+			(at 30.4 -4.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3778,7 +3778,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 29 17 0)
+			(at 30.4 -4.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3794,7 +3794,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4efa7bbc-3d42-4689-8074-b42e0223ca0d")
+			(uuid "8d760120-4e6c-4428-bf7f-67961356317e")
 			(effects
 				(font
 					(size 1 1)
@@ -3805,7 +3805,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a40007cb-edfe-4ea4-8d1a-a1ba70774761")
+			(uuid "7a777977-ae6f-4a54-95f4-133bcccb2250")
 			(effects
 				(font
 					(size 1 1)
@@ -3816,7 +3816,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7828a16e-0811-4dab-8b57-4fd7a041de19")
+			(uuid "8380b48e-dc82-4663-ad44-814bfbd455c7")
 			(effects
 				(font
 					(size 1 1)
@@ -3828,7 +3828,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25c045d2-35dc-43fa-9f5a-0e71cca47893")
+			(uuid "033b25f0-e647-4426-8011-b6c5462be997")
 			(effects
 				(font
 					(size 1 1)
@@ -3840,7 +3840,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8f2db2e-2a78-478a-b607-468bab9d9cdf")
+			(uuid "41935039-b89b-4c6b-ae90-7e0bcdf41b71")
 			(effects
 				(font
 					(size 1 1)
@@ -9448,14 +9448,14 @@
 		(layer "F.Cu")
 		(uuid "5688d19d-59ed-4682-940d-8acb56b47a31")
 		(transform
-			(translate 133.6 122.6)
+			(translate 85.96 131.1)
 			(rotate 0)
 			(scale 1 1)
 		)
 		(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW1"
-			(at 0 -3.75 0)
+			(at 47.64 -12.25 0)
 			(layer "F.SilkS")
 			(uuid "36a859cc-f863-4525-99fc-1537f613232f")
 			(effects
@@ -9466,7 +9466,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 0 3.75 0)
+			(at 47.64 -4.75 0)
 			(layer "F.Fab")
 			(uuid "ff5e8697-c734-452f-a850-0316e952f424")
 			(effects
@@ -9477,7 +9477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -41.6 4.4 0)
+			(at 6.04 -4.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9490,7 +9490,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at -41.6 4.4 0)
+			(at 6.04 -4.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9506,7 +9506,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0db5d52e-f2ef-4eb6-82f0-f1d2bff37360")
+			(uuid "34c09174-fb3b-4472-bdc1-5089ff0b75fb")
 			(effects
 				(font
 					(size 1 1)
@@ -9517,7 +9517,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cdf4467-6465-4b72-9a1f-424d10ced241")
+			(uuid "e5afa6f6-2c7b-479c-9a6f-13e43bb2dd5d")
 			(effects
 				(font
 					(size 1 1)
@@ -9528,7 +9528,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9001cd4c-37e9-4983-82e7-6f2eef0e969c")
+			(uuid "aa019c6a-a149-4e31-ab7c-80f5636a99d1")
 			(effects
 				(font
 					(size 1 1)
@@ -9540,7 +9540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2c5b7bd-ad7f-4b7c-be23-c0efae03fc67")
+			(uuid "48ecc73b-502b-4673-9d57-99a276b80738")
 			(effects
 				(font
 					(size 1 1)
@@ -9552,7 +9552,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1aa447d-4354-45b8-a027-f4b688a72983")
+			(uuid "f871ec63-c8a7-44ab-9ace-806c210bb7de")
 			(effects
 				(font
 					(size 1 1)
@@ -27615,30 +27615,6 @@
 		(uuid "e87c8ef2-37a2-4646-91b7-1166a8c2e6ac")
 	)
 	(segment
-		(start 100 108.125)
-		(end 102.125 110.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/IO0")
-		(uuid "341e62b3-36a3-426b-a143-73dc26875ff0")
-	)
-	(segment
-		(start 94 108.125)
-		(end 100 108.125)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/IO0")
-		(uuid "a10ffdfb-ef59-4582-a61e-c442a0b546e8")
-	)
-	(segment
-		(start 102.125 110.25)
-		(end 107.25 110.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/IO0")
-		(uuid "afcca54c-b34e-434c-a3e8-0a79862e0d24")
-	)
-	(segment
 		(start 99.6075 50)
 		(end 97.8525 50)
 		(width 0.25)
@@ -28797,70 +28773,6 @@
 		(layer "B.Cu")
 		(net "/TACH3")
 		(uuid "a711aedf-0a04-4378-a52c-b762dda1b636")
-	)
-	(segment
-		(start 124.999304 124.469304)
-		(end 124.75 124.22)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "0ceb0e9b-7605-4163-963a-a6cb77e5eff9")
-	)
-	(segment
-		(start 130.6 120.725)
-		(end 136.6 120.725)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "31934a85-9911-4d61-97a4-4ab692c335af")
-	)
-	(segment
-		(start 128.625357 124.469304)
-		(end 124.999304 124.469304)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "758dc523-5ddd-41fc-a472-909c065872f2")
-	)
-	(segment
-		(start 130.6 120.725)
-		(end 130.6 122.494661)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "81694845-860a-4e7e-9358-aa7c083d6449")
-	)
-	(segment
-		(start 130.6 122.494661)
-		(end 128.625357 124.469304)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "8e07ae1a-876c-459b-a0f4-5dc1d94b52ce")
-	)
-	(segment
-		(start 128.25 118.532)
-		(end 128.25 116.6)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "948a2d22-4289-45b5-a2fb-34caf9a3f051")
-	)
-	(segment
-		(start 128.25 118.532)
-		(end 130.443 120.725)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "9952c7f9-ea9c-4e6c-b364-e3d6422635f8")
-	)
-	(segment
-		(start 130.443 120.725)
-		(end 130.6 120.725)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/EN")
-		(uuid "b3d72b05-7f52-4746-81eb-b7cea3cb0838")
 	)
 	(segment
 		(start 155.57 79.205)
