@@ -29608,6 +29608,31 @@
 		)
 	)
 	(zone
+		(net "/12V")
+		(layer "F.Cu")
+		(uuid "2b3c2039-311f-4176-b674-5413e8d66e8f")
+		(name "12V fan bus")
+		(hatch edge 0)
+		(priority 1)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 111.91 43.4) (xy 114.66 43.4) (xy 114.66 49.3) (xy 122.91 49.3) (xy 122.91 43.4) (xy 125.66 43.4)
+				(xy 125.66 49.3) (xy 133.91 49.3) (xy 133.91 43.4) (xy 136.66 43.4) (xy 136.66 49.3) (xy 144.91 49.3)
+				(xy 144.91 43.4) (xy 147.9 43.4) (xy 147.9 49.3) (xy 147.35 49.3) (xy 147.35 62.4) (xy 136.6 62.4)
+				(xy 136.6 55.6) (xy 111.91 55.6)
+			)
+		)
+	)
+	(zone
 		(net "GND")
 		(layer "F.Cu")
 		(uuid "689e64c7-184e-474b-91fd-2456eeebc55a")
@@ -29667,6 +29692,28 @@
 				(xy 165.250773 54.714405) (xy 165.143654 54.607286) (xy 165.139109 54.604483) (xy 165.092384 54.552536)
 				(xy 165.080206 54.499244) (xy 165.033007 34.569793) (xy 165.052533 34.502708) (xy 165.105229 34.456828)
 				(xy 165.157007 34.4455) (xy 167.723072 34.4455) (xy 167.753197 34.4455)
+			)
+		)
+	)
+	(zone
+		(net "Net-(C3-Pad1)")
+		(layer "F.Cu")
+		(uuid "9d5ebf53-080d-4745-9c03-25e96c13b873")
+		(name "12V input")
+		(hatch edge 0)
+		(priority 1)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 147.75 52.9) (xy 164.75 52.9) (xy 164.75 58.5) (xy 147.75 58.5)
 			)
 		)
 	)
@@ -29863,6 +29910,28 @@
 				(xy 58.487026 34.634955) (xy 58.51174 34.586452) (xy 58.534539 34.555073) (xy 58.573027 34.516585)
 				(xy 58.604406 34.493786) (xy 58.652909 34.469072) (xy 58.6898 34.457086) (xy 58.753314 34.447026)
 				(xy 58.772712 34.4455) (xy 61.036 34.4455)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "B.Cu")
+		(uuid "be8eecaa-5b96-4f4f-9ae8-688995907a9a")
+		(name "GND fan return")
+		(hatch edge 0)
+		(priority 1)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 106 34.75) (xy 165 34.75) (xy 165 62.8) (xy 106 62.8)
 			)
 		)
 	)
