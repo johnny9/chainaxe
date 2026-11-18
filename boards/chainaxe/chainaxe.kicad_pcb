@@ -24162,6 +24162,22 @@
 		(net "/SCL")
 		(uuid "c99c60be-68ff-4fc2-ad74-3bfae1d4c0df")
 	)
+	(segment
+		(start 155.61 83.245)
+		(end 138.08 100.775)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/SCL")
+		(uuid "de2cea54-e707-4dd9-b879-ba7344ec4be4")
+	)
+	(segment
+		(start 138.08 100.775)
+		(end 138.08 104.6)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/SCL")
+		(uuid "f55b05eb-e578-4830-b950-b3409141c2a8")
+	)
 	(via
 		(at 133.973635 108.601722)
 		(size 0.8)
