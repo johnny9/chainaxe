@@ -3794,7 +3794,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d760120-4e6c-4428-bf7f-67961356317e")
+			(uuid "25c65345-0948-4cab-8e68-2fe93db9a8c0")
 			(effects
 				(font
 					(size 1 1)
@@ -3805,7 +3805,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a777977-ae6f-4a54-95f4-133bcccb2250")
+			(uuid "d7402946-71e6-49ae-85aa-aac39d5e2bbf")
 			(effects
 				(font
 					(size 1 1)
@@ -3816,7 +3816,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8380b48e-dc82-4663-ad44-814bfbd455c7")
+			(uuid "bb60304b-e9c0-4680-9bb2-eee5716ef18a")
 			(effects
 				(font
 					(size 1 1)
@@ -3828,7 +3828,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "033b25f0-e647-4426-8011-b6c5462be997")
+			(uuid "a2444126-fd9d-4e4e-a170-038b5593cb60")
 			(effects
 				(font
 					(size 1 1)
@@ -3840,7 +3840,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41935039-b89b-4c6b-ae90-7e0bcdf41b71")
+			(uuid "2b9cae8a-9f97-461d-b6a9-38de7e9343ba")
 			(effects
 				(font
 					(size 1 1)
@@ -9506,7 +9506,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34c09174-fb3b-4472-bdc1-5089ff0b75fb")
+			(uuid "5f5326ab-e49b-4c37-8c48-1910381e2134")
 			(effects
 				(font
 					(size 1 1)
@@ -9517,7 +9517,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5afa6f6-2c7b-479c-9a6f-13e43bb2dd5d")
+			(uuid "87f207c7-e3fe-47a1-b91b-4b25eb67fc52")
 			(effects
 				(font
 					(size 1 1)
@@ -9528,7 +9528,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa019c6a-a149-4e31-ab7c-80f5636a99d1")
+			(uuid "8ab27982-d64a-46dc-b46b-320f007ca6b6")
 			(effects
 				(font
 					(size 1 1)
@@ -9540,7 +9540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48ecc73b-502b-4673-9d57-99a276b80738")
+			(uuid "2df787fc-62ff-4718-bbe4-2c36358b5ff4")
 			(effects
 				(font
 					(size 1 1)
@@ -9552,7 +9552,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f871ec63-c8a7-44ab-9ace-806c210bb7de")
+			(uuid "cd9e77b4-c5f6-4f55-99db-f2fc26485269")
 			(effects
 				(font
 					(size 1 1)
@@ -24053,10 +24053,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ESP32-S3 hashboard controller v0.1"
-		(at 96 84.5 0)
+	(gr_text "RESET"
+		(at 85.96 127.1 0)
 		(layer "F.SilkS")
-		(uuid "9cbd894c-c73e-4293-b4ae-a989e36cb2b9")
+		(uuid "c31eff01-9ca0-4710-b1ee-05ecba80cc68")
 		(effects
 			(font
 				(size 1 1)
@@ -24065,7 +24065,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 97 106.3 0)
+		(at 95.6 127.1 0)
 		(layer "F.SilkS")
 		(uuid "ee39328e-eadc-4288-b202-737020afab7e")
 		(effects
@@ -24075,10 +24075,10 @@
 			)
 		)
 	)
-	(gr_text "RESET"
-		(at 133.6 118.7 0)
+	(gr_text "ESP32-S3 hashboard controller v0.1"
+		(at 96 84.5 0)
 		(layer "F.SilkS")
-		(uuid "c31eff01-9ca0-4710-b1ee-05ecba80cc68")
+		(uuid "9cbd894c-c73e-4293-b4ae-a989e36cb2b9")
 		(effects
 			(font
 				(size 1 1)
