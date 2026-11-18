@@ -709,6 +709,22 @@
     "netclass_assignments": {},
     "netclass_patterns": [
       {
+        "netclass": "USB",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CC1"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CC2"
+      },
+      {
         "netclass": "Power",
         "pattern": "/12V"
       },
@@ -725,20 +741,8 @@
         "pattern": "VBUS"
       },
       {
-        "netclass": "USB",
-        "pattern": "/USB_DP"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB_DN"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/CC1"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/CC2"
+        "netclass": "Power",
+        "pattern": "Net-(C3-Pad1)"
       }
     ]
   },
