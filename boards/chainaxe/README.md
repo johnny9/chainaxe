@@ -1,14 +1,14 @@
 # chainaxe control board v0.1
 
-ESP32-S3 Antminer hashboard controller. Bitcrane outline, mounting holes and connector
-positions (110 x 100 mm, 4 layers); BitaxeGT-style ESP32-S3-WROOM-1 in place of the
-Bitcrane's FTDI USB bridge.
+ESP32-S3 Antminer hashboard controller. Outline, mounting holes and connector positions follow a
+measured drawing of the stock S19 control board (110 x 100 mm, 4 layers; see extra/outline/),
+with a BitaxeGT-style ESP32-S3-WROOM-1 in place of the Bitcrane's FTDI USB bridge.
 
 Derived from [skot/bitcrane](https://github.com/skot/bitcrane) (GPL-3.0) and
 [bitaxeorg/BitaxeGT](https://github.com/bitaxeorg/BitaxeGT) (CERN-OHL-S-2.0); keep the
 licences in mind when publishing.
 
-## Connectors (same places as the Bitcrane)
+## Connectors (same places as the stock S19 control board)
 
 | Ref | What |
 |---|---|
