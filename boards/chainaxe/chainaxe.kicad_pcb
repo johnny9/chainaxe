@@ -4589,7 +4589,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c68a2ffd-0fa0-4de0-8fce-567060f1c6ef")
+			(uuid "df90cc12-616e-4ac1-9b83-117906ccec6d")
 			(effects
 				(font
 					(size 1 1)
@@ -4601,7 +4601,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abd6d8bc-20e6-438f-86f8-7dd6171ce275")
+			(uuid "b66e1adc-c497-4b9e-9f2d-3535e4d4fd5e")
 			(effects
 				(font
 					(size 1 1)
@@ -4613,7 +4613,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9912f0f-3dfe-4c5c-88c3-a7feb89f95c8")
+			(uuid "a029aac9-86c1-4f23-b3b3-d80da2575b69")
 			(effects
 				(font
 					(size 1 1)
@@ -4625,7 +4625,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b57d540-cf59-45b8-b71d-3bad7b4e28a4")
+			(uuid "39b64a53-430e-41c5-a188-697553c53094")
 			(effects
 				(font
 					(size 1 1)
@@ -4638,7 +4638,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6346b139-bb34-46d6-a7bc-61e6f97d6c1a")
+			(uuid "64491f52-d375-4d98-905f-73fc6d9d4bb7")
 			(effects
 				(font
 					(size 1 1)
@@ -4650,7 +4650,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07583805-0e52-4a7b-b2d7-539f9bd289b4")
+			(uuid "c1c4215e-3034-4e62-a1d9-5c29364d5960")
 			(effects
 				(font
 					(size 1 1)
@@ -4662,7 +4662,7 @@
 		(path "/15f50ecd-d8e0-4167-b614-8557124556e1")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -10.04 -3.65)
@@ -5282,7 +5282,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71432536-c159-4a08-82d7-9f64bf48720f")
+			(uuid "f1791e61-899e-4786-920d-bfc55ceb3d1f")
 			(effects
 				(font
 					(size 1 1)
@@ -5294,7 +5294,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "190ebf9e-c8c7-45d7-bc90-d2ac71c0f0d8")
+			(uuid "f3c93801-ffd8-4a70-8a26-a5a0cf8a9927")
 			(effects
 				(font
 					(size 1 1)
@@ -5307,7 +5307,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b65712d9-2766-41b8-b0ea-b6d6ad51038c")
+			(uuid "5e508729-bd24-403b-9b55-f6ab4088afad")
 			(effects
 				(font
 					(size 1 1)
@@ -5320,7 +5320,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65852fd8-c970-4ce6-bcfa-db1b104ec601")
+			(uuid "0a12a4fc-09f2-4870-8575-6ba5d2be0fd2")
 			(effects
 				(font
 					(size 1 1)
@@ -5332,7 +5332,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8400af0-3b34-4d80-8d7c-538f948bece9")
+			(uuid "4a88d133-5af1-40e4-a2c7-8800d026eab2")
 			(effects
 				(font
 					(size 1 1)
@@ -5344,7 +5344,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a45b0172-e4e0-4003-b380-168f34403f99")
+			(uuid "7f1656a5-e38d-4bbb-b3b6-5f474e81fac8")
 			(effects
 				(font
 					(size 1 1)
@@ -5355,7 +5355,7 @@
 		(path "/430e8bb4-58f7-484e-9c00-844c5ae1ab7f")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start 6.9 17.1)
@@ -5641,7 +5641,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "489a003f-bb7e-4fb6-95d5-40b7a79f5475")
+			(uuid "091ff6ca-7f80-497b-afcf-eaacc1e9ff54")
 			(effects
 				(font
 					(size 1 1)
@@ -5653,7 +5653,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73cd94f0-8aa4-4c25-b89a-cde2eef2be73")
+			(uuid "48ee328d-bf73-419f-a8b2-ec546a3bdf70")
 			(effects
 				(font
 					(size 1 1)
@@ -5665,7 +5665,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "331c6cfc-f53a-4870-9a39-64aab8e562e8")
+			(uuid "a3047050-2934-4a73-bf88-00852459c54b")
 			(effects
 				(font
 					(size 1 1)
@@ -5677,7 +5677,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "318a8c9d-217b-4f9f-b037-a0a126d78bc8")
+			(uuid "4f6604ce-fbd2-4c33-aa44-e73824c58a42")
 			(effects
 				(font
 					(size 1 1)
@@ -5690,7 +5690,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44d7a152-bc29-48fa-8533-1b7066eed86c")
+			(uuid "8005986e-86d5-413c-8c3f-9c5ca76e4e3d")
 			(effects
 				(font
 					(size 1 1)
@@ -5702,7 +5702,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f34d7be1-7300-4636-81f8-b8c5b86c63e1")
+			(uuid "a73fd61f-40c6-49ac-83e7-c9f80c1918b5")
 			(effects
 				(font
 					(size 1 1)
@@ -5714,7 +5714,7 @@
 		(path "/6c2c60de-db41-41ce-a8c4-fd69167b87f5")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.9 3.25)
@@ -8899,7 +8899,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8db7dd96-d3b4-4bb9-a1bd-af12d8be12b1")
+			(uuid "1db3313b-d29c-40bd-903e-9c0b708175a3")
 			(effects
 				(font
 					(size 1 1)
@@ -8911,7 +8911,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10ad32cb-b898-4723-ad6b-4348eeb20ab0")
+			(uuid "ed5c941f-be29-484f-8012-489ea3959cb9")
 			(effects
 				(font
 					(size 1 1)
@@ -8923,7 +8923,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f25e028-07a4-4f04-9bc9-1128c9fb218e")
+			(uuid "eb592373-5074-4964-a859-192259656f99")
 			(effects
 				(font
 					(size 1 1)
@@ -8936,7 +8936,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9af1495-5dac-4502-a79b-f17cfab5c928")
+			(uuid "a6ba326c-fb5f-4b11-97d6-04fa013f2a72")
 			(effects
 				(font
 					(size 1 1)
@@ -8948,7 +8948,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3397dcd-3232-45db-b46c-f2dd6b23a126")
+			(uuid "d33b0024-e96c-4d6a-869c-7b9c3fecab89")
 			(effects
 				(font
 					(size 1 1)
@@ -8960,7 +8960,7 @@
 		(path "/bcabc9f7-f952-4723-a48f-63f70a051826")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.11 3.2)
@@ -10067,7 +10067,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e4c30d9-75ba-4654-90a9-516f08ffc92c")
+			(uuid "8802e250-3b72-494f-a9b9-6d176acb9407")
 			(effects
 				(font
 					(size 1 1)
@@ -10079,7 +10079,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc7a083f-f0cb-4f33-9f79-9950231de57f")
+			(uuid "5a4cfb3b-0937-43e4-acd0-7a368e14a84d")
 			(effects
 				(font
 					(size 1 1)
@@ -10091,7 +10091,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4da32141-ed93-4213-b584-2348c4f9294b")
+			(uuid "753397b3-c841-48b8-91ce-fdc325b56b2b")
 			(effects
 				(font
 					(size 1 1)
@@ -10104,7 +10104,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2832912e-1e21-49f0-a256-1532746e6156")
+			(uuid "40471c27-eb61-4d09-b42d-0dffe1a7d0d1")
 			(effects
 				(font
 					(size 1 1)
@@ -10116,7 +10116,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "779de7d9-807b-406b-868b-9b17daa51300")
+			(uuid "04d48590-2c3b-4ccf-a852-20401e2dc75c")
 			(effects
 				(font
 					(size 1 1)
@@ -10128,7 +10128,7 @@
 		(path "/13558a95-f82b-460f-ae31-e83673511b03")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.11 3.2)
@@ -14412,7 +14412,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77eeee33-6a9f-4b7b-aef5-977db1eec97f")
+			(uuid "9f8f5aee-b47a-4709-b0e5-2e65ab768148")
 			(effects
 				(font
 					(size 1 1)
@@ -14424,7 +14424,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "300d3b8a-b0d9-4b34-b502-152bee0a68a7")
+			(uuid "bc00e454-fe2e-401d-a0c2-16c224f4fe6c")
 			(effects
 				(font
 					(size 1 1)
@@ -14436,7 +14436,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ef6a5aa-269b-41c3-b359-f562ef4e8f8d")
+			(uuid "23e901e7-b9ff-46ee-ae99-4e3edecb5c08")
 			(effects
 				(font
 					(size 1 1)
@@ -14448,7 +14448,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41328526-3cb1-487b-bdf1-bc1ff4a9e387")
+			(uuid "d8bcc2e9-a258-4b4e-9546-db5449def912")
 			(effects
 				(font
 					(size 1 1)
@@ -14461,7 +14461,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92bc3568-6fb9-47bc-bef1-0523dd8b44c9")
+			(uuid "e99cbf04-b43f-4208-b042-132aca84a362")
 			(effects
 				(font
 					(size 1 1)
@@ -14473,7 +14473,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "897b9b39-017e-4587-8728-66fa14ba0d53")
+			(uuid "2bc14815-09dc-40cf-89d9-92208807ee06")
 			(effects
 				(font
 					(size 1 1)
@@ -14485,7 +14485,7 @@
 		(path "/50bfe4fc-4e14-4256-a0a7-aaf0d5d8e8e7")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.9 3.25)
@@ -16734,7 +16734,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "231b247d-debe-42a0-9c35-cc9dccaa74e6")
+			(uuid "4ad57ed4-19d1-425d-8812-a4641062d8ed")
 			(effects
 				(font
 					(size 1 1)
@@ -16746,7 +16746,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a40644bc-d61e-48f3-8685-1a7ea0fafbca")
+			(uuid "a9a2599f-0adb-4038-904a-daac489a729d")
 			(effects
 				(font
 					(size 1 1)
@@ -16759,7 +16759,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63160c89-64bf-4d9f-a506-5a631fbc0fed")
+			(uuid "1cc62918-fe5d-4954-8f18-12a5cbd9ab84")
 			(effects
 				(font
 					(size 1 1)
@@ -16772,7 +16772,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5d8817d-c2d3-445b-b335-85d30829519c")
+			(uuid "fc1d9324-f674-4231-a743-1a32fb962f0d")
 			(effects
 				(font
 					(size 1 1)
@@ -16784,7 +16784,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d1312c4-6a05-4745-8a22-222d29d494ce")
+			(uuid "e18db42e-1e97-45a3-a012-199480861d5a")
 			(effects
 				(font
 					(size 1 1)
@@ -16796,7 +16796,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56c8fdab-e179-431f-8720-04f65aee769a")
+			(uuid "8c7ec975-7625-4de8-833e-9c88e0bb7263")
 			(effects
 				(font
 					(size 1 1)
@@ -16808,7 +16808,7 @@
 		(path "/18a012e3-ce9c-46c7-9c26-c0c0d1fa9650")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4 -2.5)
@@ -19998,7 +19998,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ceb373b-87f5-49d7-a83c-e6f317e1b649")
+			(uuid "8fa30e73-3f2e-4ffb-99f9-4cf26c4c9f34")
 			(effects
 				(font
 					(size 1 1)
@@ -20010,7 +20010,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58c3ee24-cdfb-432d-aee8-54fcbcf5bd8b")
+			(uuid "8e509809-7c33-4338-a63e-8a69e2c25784")
 			(effects
 				(font
 					(size 1 1)
@@ -20022,7 +20022,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e59cdc30-4ad8-449b-998b-d9b0d0d04211")
+			(uuid "7854c86b-7f70-4ef0-888d-9c9268f72cfa")
 			(effects
 				(font
 					(size 1 1)
@@ -20034,7 +20034,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf4938e2-ddff-4354-b2ac-4ae278c7bdcf")
+			(uuid "cf503a48-aa93-4e86-84bd-cb624e51a99a")
 			(effects
 				(font
 					(size 1 1)
@@ -20047,7 +20047,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19df970b-3f2e-49fd-8ae5-893c91d3fc10")
+			(uuid "fe7ef8f9-8a1b-49fc-a2f5-ee855548d376")
 			(effects
 				(font
 					(size 1 1)
@@ -20059,7 +20059,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f14b571b-feb0-4ad4-99cf-d90f245cff2d")
+			(uuid "95c20c4a-e145-4db0-b473-3ce0b34c4575")
 			(effects
 				(font
 					(size 1 1)
@@ -20071,7 +20071,7 @@
 		(path "/5a8ad0ce-05a3-4a42-b70f-02b01c11403d")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -10.04 -3.65)
@@ -22574,7 +22574,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1fa0405-34d6-4af7-a8c7-676be687cf63")
+			(uuid "fa8af161-4bfa-4bc1-bb33-8c78baaafe2c")
 			(effects
 				(font
 					(size 1 1)
@@ -22586,7 +22586,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a109864e-f712-4682-8ea5-72ad5adf5703")
+			(uuid "4be708ac-d883-46c0-997d-1470dafe506d")
 			(effects
 				(font
 					(size 1 1)
@@ -22598,7 +22598,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dad2eda-ff80-4c4a-894f-791e2ca4dbc2")
+			(uuid "9a6146f3-0380-4197-8a81-d574df1d2fac")
 			(effects
 				(font
 					(size 1 1)
@@ -22610,7 +22610,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deb8401f-0344-4c31-9193-c5faf54fb7c0")
+			(uuid "ba67bbf3-8e7d-47c8-8979-e0ff7459b703")
 			(effects
 				(font
 					(size 1 1)
@@ -22623,7 +22623,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92f87357-07a9-4387-af12-e7db1387ba35")
+			(uuid "3189e698-bfec-4064-b365-0e9c6165b960")
 			(effects
 				(font
 					(size 1 1)
@@ -22635,7 +22635,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da4550c7-889c-4f2c-af06-5559f1acff2f")
+			(uuid "b729d330-454b-4f1d-8bea-7974bf80e43b")
 			(effects
 				(font
 					(size 1 1)
@@ -22647,7 +22647,7 @@
 		(path "/60f8b400-705a-4614-8cb8-023eb161eb13")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -10.04 -3.65)
