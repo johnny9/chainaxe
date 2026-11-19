@@ -24056,7 +24056,7 @@
 		)
 	)
 	(gr_text "RESET"
-		(at 85.96 127.1 0)
+		(at 82.15 127.1 0)
 		(layer "F.SilkS")
 		(uuid "c31eff01-9ca0-4710-b1ee-05ecba80cc68")
 		(effects
@@ -24067,7 +24067,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 95.6 127.1 0)
+		(at 91.79 127.1 0)
 		(layer "F.SilkS")
 		(uuid "ee39328e-eadc-4288-b202-737020afab7e")
 		(effects
