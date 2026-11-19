@@ -1,6 +1,6 @@
 {
   "kind": "pcb",
-  "name": "chainaxe control board",
+  "name": "Chainaxe control board",
   "source": "chainaxe.kicad_pcb",
   "qty": 5,
   "options": {

@@ -1,11 +1,11 @@
-# ChainAxe
+# Chainaxe
 
 ESP32-S3 replacement control board for Antminer S19 hashboards. It drops into the stock
 control-board position: the outline, mounting holes and connector positions follow a measured
 drawing of the original S19 controller, and it talks to up to three hashboards over the standard
 18-pin data cables.
 
-![ChainAxe control board, top](docs/images/chainaxe-top.png)
+![Chainaxe control board, top](docs/images/chainaxe-top.png)
 
 ## Board at a glance
 
@@ -28,13 +28,13 @@ Full pinout, GPIO map and design notes: [boards/chainaxe/README.md](boards/chain
 | `boards/chainaxe/` | KiCad project (schematic, PCB, local symbol and footprint libraries) |
 | `mfg/assembly/` | BOM and pick-and-place files for assembly |
 | `extra/outline/` | Measured S19 control-board drawing and the board outline DXF |
-| `extra/axe_logo/` | Generator for the chainaxe silkscreen icon |
+| `extra/axe_logo/` | Generator for the Chainaxe silkscreen icon |
 | `extra/scripts/` | Helper scripts used while building the board |
 | `docs/images/` | Board renders |
 
 ## Bottom
 
-![ChainAxe control board, bottom](docs/images/chainaxe-bottom.png)
+![Chainaxe control board, bottom](docs/images/chainaxe-bottom.png)
 
 ## Licence
 

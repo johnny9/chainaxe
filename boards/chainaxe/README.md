@@ -1,4 +1,4 @@
-# chainaxe control board v0.1
+# Chainaxe control board v0.1
 
 ESP32-S3 Antminer hashboard controller. Outline, mounting holes and connector positions follow a
 measured drawing of the stock S19 control board (110 x 100 mm, 4 layers; see extra/outline/),

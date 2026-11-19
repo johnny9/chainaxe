@@ -62,7 +62,7 @@ W, H = (max(xs)-min(xs))*S, (max(ys)-min(ys))*S
 def T(p): return ((p[0]-cx)*S, (p[1]-cy)*S)
 
 # --- footprint
-name = "Silk_ChainAxe"
+name = "Silk_Chainaxe"
 L = [f'(footprint "{name}" (version 20241229) (generator "chainaxe_silk") (generator_version "1.0")',
      '  (layer "F.Cu")',
      '  (descr "Warhammer-style chainaxe side profile, silkscreen logo")',
