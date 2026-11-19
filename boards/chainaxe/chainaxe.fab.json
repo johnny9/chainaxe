@@ -4,7 +4,7 @@
   "source": "chainaxe.kicad_pcb",
   "qty": 5,
   "options": {
-    "layers": 4,
+    "layers": 6,
     "thickness_mm": 1.6,
     "color": "green",
     "finish": "enig",
