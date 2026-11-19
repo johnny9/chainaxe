@@ -653,14 +653,14 @@
 		(layer "F.Cu")
 		(uuid "08809813-5adc-419f-97e1-00fdbc75a806")
 		(transform
-			(translate 124.934 126.44)
+			(translate 124.934 126.64)
 			(rotate -90)
 			(scale 1 1)
 		)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -5.49 270)
+			(at -0.2 -5.49 270)
 			(layer "F.SilkS")
 			(uuid "243d985b-37ad-4e4a-bc57-64647e9f32ec")
 			(effects
@@ -671,7 +671,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -2.13 270)
+			(at -0.2 -2.13 270)
 			(layer "F.Fab")
 			(uuid "2f1c5e9f-c5fd-425f-9808-d06c03716aca")
 			(effects
@@ -682,7 +682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -17.44 -3.066 270)
+			(at -17.64 -3.066 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2da8b691-ae3e-4fed-ac6a-3ccc66fadfc2")
@@ -693,7 +693,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at -17.44 -3.066 270)
+			(at -17.64 -3.066 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c1af843-071b-4c3a-a132-17b3e7206dc3")
@@ -707,7 +707,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72762efa-ab54-44d3-bace-da1f1e50574d")
+			(uuid "6bbb2381-4d33-437f-bc90-25e965ec453f")
 			(effects
 				(font
 					(size 1 1)
@@ -718,7 +718,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f7a3925-0906-478d-ba52-177803a49b0d")
+			(uuid "552f0c5b-1071-4549-9191-a005de103907")
 			(effects
 				(font
 					(size 1 1)
@@ -729,7 +729,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eaf253f7-2c46-44ae-af36-04dd2c86c2ca")
+			(uuid "9d631c58-9ff9-47ef-96e3-82ddb6d51860")
 			(effects
 				(font
 					(size 1 1)
@@ -741,7 +741,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0868cf8b-5cd0-40be-a14b-521e34988cc1")
+			(uuid "3ae07777-dd77-4279-9365-c9cddc21bb9c")
 			(effects
 				(font
 					(size 1 1)
@@ -753,7 +753,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6206cae8-b776-4aca-adb0-04f177bd8f66")
+			(uuid "3a89a7e9-25ac-456a-8b3d-655d289537b5")
 			(effects
 				(font
 					(size 1 1)
@@ -18842,7 +18842,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0.882 2.4375 270)
+			(at 0 -2.1 270)
 			(layer "F.SilkS")
 			(uuid "b793df95-7680-40fb-843e-d19d8aea7169")
 			(effects
@@ -18889,7 +18889,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "331c97d3-18cc-4d2d-ac5e-da76ec39167b")
+			(uuid "024c04c4-5645-4f15-b072-4f7d6dbb91f2")
 			(effects
 				(font
 					(size 1 1)
@@ -18900,7 +18900,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b17de4eb-b06f-4c99-982c-2fe584382322")
+			(uuid "32036f5a-96eb-4a78-a125-a4c540ee9d59")
 			(effects
 				(font
 					(size 1 1)
@@ -18911,7 +18911,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cf49e21-f04d-4d27-b4c0-cefbc026c178")
+			(uuid "4a86f8fb-5c37-4173-87ff-7c6ca5640d37")
 			(effects
 				(font
 					(size 1 1)
@@ -18923,7 +18923,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d112a92b-bc4a-4b49-a3db-66ccb6d5808b")
+			(uuid "8b6d49e8-7914-4149-961b-7a0dc025e3b2")
 			(effects
 				(font
 					(size 1 1)
@@ -18935,7 +18935,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11b9077f-f96e-4731-a75f-6d51019f5f00")
+			(uuid "b3353e68-9e20-4fbd-8527-7161b9c50413")
 			(effects
 				(font
 					(size 1 1)
