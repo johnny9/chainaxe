@@ -36,8 +36,13 @@ Full pinout, GPIO map and design notes: [boards/chainaxe/README.md](boards/chain
 
 ![ChainAxe control board, bottom](docs/images/chainaxe-bottom.png)
 
-## Credits and licences
+## Licence
+
+Licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+(CERN-OHL-S-2.0); see [LICENSE](LICENSE).
+
+## Credits
 
 Derived from [skot/bitcrane](https://github.com/skot/bitcrane) (GPL-3.0) for the hashboard
 interface and [bitaxeorg/BitaxeGT](https://github.com/bitaxeorg/BitaxeGT) (CERN-OHL-S-2.0) for
-the ESP32-S3 section. Keep both licences in mind when sharing or modifying the design.
+the ESP32-S3 section.
