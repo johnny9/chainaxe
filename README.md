@@ -43,6 +43,6 @@ Licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 
 ## Credits
 
-Derived from [skot/bitcrane](https://github.com/skot/bitcrane) (GPL-3.0) for the hashboard
-interface and [bitaxeorg/BitaxeGT](https://github.com/bitaxeorg/BitaxeGT) (CERN-OHL-S-2.0) for
-the ESP32-S3 section.
+Derived from [skot/bitcrane](https://github.com/skot/bitcrane) for the hashboard interface (used
+under CERN-OHL-S-2.0 with the author's permission) and
+[bitaxeorg/BitaxeGT](https://github.com/bitaxeorg/BitaxeGT) for the ESP32-S3 section.
