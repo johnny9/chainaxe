@@ -24077,17 +24077,6 @@
 			)
 		)
 	)
-	(gr_text "ESP32-S3 hashboard controller v0.1"
-		(at 96 84.5 0)
-		(layer "F.SilkS")
-		(uuid "9cbd894c-c73e-4293-b4ae-a989e36cb2b9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "OLED GND 3V3 SCL SDA"
 		(at 137 102 0)
 		(layer "F.SilkS")
@@ -24110,18 +24099,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "chainaxe"
-		(at 96 80 0)
-		(layer "F.SilkS")
-		(uuid "88f1b247-74dd-4827-92f1-10027297d403")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.45)
-				(bold yes)
-			)
 		)
 	)
 	(segment
