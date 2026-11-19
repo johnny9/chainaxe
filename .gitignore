@@ -1,0 +1,9 @@
+# KiCad lock files and caches
+~*.lck
+*.lck
+fp-info-cache
+*-backups/
+# local backups of generated assembly files
+backup/*.prev.csv
+__pycache__/
+*.pyc
