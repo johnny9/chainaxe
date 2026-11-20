@@ -53,3 +53,8 @@
 	(condition "A.Parent == 'U2' && B.Parent == 'U2'")
 	(constraint clearance (min 0.15mm))
 )
+
+(rule "J11 pads to locating holes (fab 0.2 mm)"
+	(condition "A.Parent == 'J11' && B.Parent == 'J11'")
+	(constraint hole_clearance (min 0.2mm))
+)
