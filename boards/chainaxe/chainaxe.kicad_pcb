@@ -15378,7 +15378,7 @@
 			)
 		)
 	)
-	(footprint ""
+	(footprint "bitcrane:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 		(layer "F.Cu")
 		(uuid "a81e3baa-95d2-4191-ac93-d0f4c4817587")
 		(transform
@@ -15432,11 +15432,191 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb57f5c-1f8e-4922-a713-7d6c47707f82")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f00eed9-8d14-47d7-92b9-897701e06532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GT-USB-7010ASV"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d47697a8-28a4-4848-8e3f-3d9a6d91e9f3")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C2988369"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15102e83-cd47-48be-8ef7-3ad566704af4")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72970370-5dd9-4936-ba17-14fa49a164f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6e4e999f-fc76-47ea-b47b-05f6ade371a8")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.5 1.32)
+			(end -4.5 -0.69)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9f451dd-bcc3-4aa0-997d-313d8e4eaf04")
+		)
+		(fp_line
+			(start -4.5 5.03)
+			(end -4.5 3.34)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86df2ab4-950d-43dc-b038-06b1b1491bd2")
+		)
+		(fp_line
+			(start 4.5 1.32)
+			(end 4.5 -0.69)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b84ebc1-ecd4-4102-8005-a1a71c485b89")
+		)
+		(fp_line
+			(start 4.5 5.03)
+			(end 4.5 3.34)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "da2da499-c02b-40ca-9e11-89d24e24e8f5")
+		)
+		(fp_circle
+			(center -2.9 -1.28)
+			(end -2.78 -1.28)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a9da6c53-82ad-4a1e-9f66-19d3c6388c17")
+		)
+		(fp_circle
+			(center 2.89 -1.28)
+			(end 3.01 -1.28)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ae60ce7c-976c-464a-add0-54de9683a99f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1877487a-281b-4017-9ca7-17f2165b4686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -2.9 -1.28)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "*.Cu" "*.Mask")
+			(uuid "febfccf0-f3a5-462f-b8b4-0e390dc0ef25")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.89 -1.28)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7f6a5935-a5cd-4ff5-8179-6c23c52c2ffa")
+		)
+		(pad "1" thru_hole oval
+			(at -4.32 -1.78)
+			(size 1 2.1)
+			(drill oval 0.599999 1.699997)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(uuid "4e3a1bc8-264a-42cc-82bb-ea734b44b2fd")
+		)
+		(pad "2" thru_hole oval
+			(at 4.32 -1.78)
+			(size 1 2.1)
+			(drill oval 0.599999 1.699997)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(uuid "6faa1ea4-e63d-43bb-b735-28ec80bbf2f4")
+		)
+		(pad "3" thru_hole oval
+			(at 4.32 2.4)
+			(size 1 1.8)
+			(drill oval 0.599999 1.399997)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(uuid "792df3b9-1e3e-409f-8d6c-04f8cc5731ce")
+		)
+		(pad "4" thru_hole oval
+			(at -4.32 2.4)
+			(size 1 1.8)
+			(drill oval 0.599999 1.399997)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(uuid "3bddf6f0-1f84-4f81-9bcb-b7d1dc06b5f4")
+		)
 		(pad "A1B12" smd roundrect
 			(at -3.2 -2.4)
 			(size 0.6 1.24)
@@ -15446,6 +15626,41 @@
 			(chamfer bottom_right)
 			(net "GND")
 			(uuid "1d5c2725-da2a-4b96-bdae-47f907c0dfe7")
+		)
+		(pad "A4B9" smd rect
+			(at -2.4 -2.4)
+			(size 0.6 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J11-VBUS-PadA4B9)")
+			(uuid "8de83f09-b7b6-4d57-93d0-d1176102272a")
+		)
+		(pad "A5" smd rect
+			(at -1.25 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/CC1")
+			(uuid "90795240-3a61-4c43-964d-489e2f39d817")
+		)
+		(pad "A6" smd rect
+			(at -0.25 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/USB_DP")
+			(uuid "c8e492c6-27fb-4427-8a7d-548e21ef0943")
+		)
+		(pad "A7" smd rect
+			(at 0.25 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/USB_DN")
+			(uuid "b1d52497-317c-4f94-a5bf-b36de5dfe737")
+		)
+		(pad "A8" smd rect
+			(at 1.25 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J11-SBU1-PadA8)")
+			(uuid "7a659f2c-cb7a-4f4a-9644-fda6a8e16922")
 		)
 		(pad "B1A12" smd roundrect
 			(at 3.2 -2.4)
@@ -15457,7 +15672,53 @@
 			(net "GND")
 			(uuid "8cea4a87-f3cf-48db-955e-92b16b769184")
 		)
+		(pad "B4A9" smd rect
+			(at 2.4 -2.4)
+			(size 0.6 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J11-VBUS-PadB4A9)")
+			(uuid "f9002765-2cfc-487f-9247-c835fa32b410")
+		)
+		(pad "B5" smd rect
+			(at 1.75 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/CC2")
+			(uuid "f8604708-608e-42ed-9203-eddea98b30f4")
+		)
+		(pad "B6" smd rect
+			(at 0.75 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/USB_DP")
+			(uuid "911c8d83-8d9e-4096-8758-e38cd87bd2ef")
+		)
+		(pad "B7" smd rect
+			(at -0.75 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/USB_DN")
+			(uuid "2a1a3d62-d4e6-4965-ac13-8a4896406bcf")
+		)
+		(pad "B8" smd rect
+			(at -1.75 -2.4)
+			(size 0.3 1.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J11-SBU2-PadB8)")
+			(uuid "aed56f6e-bf2f-40d4-bb4c-acc71c71ba20")
+		)
 		(embedded_fonts no)
+		(model "/Users/skot/Bitcoin/bitcrane/PCB/3d/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
