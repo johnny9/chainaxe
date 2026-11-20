@@ -7,3 +7,8 @@ fp-info-cache
 backup/*.prev.csv
 __pycache__/
 *.pyc
+# KiCad local history (has its own git repo)
+.history/
+# scratch output from design/manufacturing reviews
+backup/review/
+backup/review.auto.md
