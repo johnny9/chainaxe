@@ -6556,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs002p03p8z-d.pdf"
 			(at 3.21 3.315 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6568,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+		(property "Description" "P-channel MOSFET, -30V, 1.4mOhm max @ Vgs -10V, DFN5 5x6 (SO-8FL); reverse-polarity protection"
 			(at 3.21 3.315 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6592,35 +6592,11 @@
 				)
 			)
 		)
-		(property "MPN" "DMP3013SFV-7"
+		(property "MPN" "NTMFS002P03P8ZT1G"
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2337db9-54c4-4d5b-b9f3-d186697f2296")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DK" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ec5d0a9-c515-442d-b4d8-d88f98e9c530")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "NTMFS002P03P8ZT1G"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86292e95-5b09-4b71-bbd0-aaf7b04d4566")
 			(effects
 				(font
 					(size 1 1)
@@ -6640,36 +6616,12 @@
 				)
 			)
 		)
-		(property "DK" ""
-			(at -1.93 -3.405 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9f13825-e357-48ee-a308-be590571253f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2902170"
 			(at -1.93 -3.405 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21fa989b-be93-49c9-aea1-627d9fc94d91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "DMP3013SFV-7"
-			(at -1.93 -3.405 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01e259d1-385c-42ab-85cf-bd3162c79618")
 			(effects
 				(font
 					(size 1 1)
@@ -7019,7 +6971,7 @@
 			(scale 1 1)
 		)
 		(property "Reference" "D1"
-			(at -2.235 0 180)
+			(at -1.41 -2.02 180)
 			(layer "F.SilkS")
 			(uuid "bdae0d64-c2d7-4765-8b93-9d62bc5d95f8")
 			(effects
@@ -7068,7 +7020,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f353c695-38c4-496f-b03d-cf85452169f1")
+			(uuid "ea04dc3c-0252-4374-8dc8-4a9012b125c6")
 			(effects
 				(font
 					(size 1 1)
@@ -7080,7 +7032,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96c06045-5de2-4713-8ba7-fb6829172854")
+			(uuid "adda3272-cbd9-48d2-8ed1-99d0f65079b3")
 			(effects
 				(font
 					(size 1 1)
@@ -7093,7 +7045,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "028a95dc-0a25-432b-9019-f986b25b4d15")
+			(uuid "246332dc-a773-46ea-b45a-84c4c2a90150")
 			(effects
 				(font
 					(size 1 1)
@@ -7106,7 +7058,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "037efa2d-ef7d-4aa4-8176-6b850db537be")
+			(uuid "0b2d6e06-c320-47f0-a7cf-fbdcab9248a6")
 			(effects
 				(font
 					(size 1 1)
@@ -7118,7 +7070,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6ee616b-a15c-41f5-925d-df5bca612276")
+			(uuid "6322548a-7c1f-49c7-b698-55bfb1a37b8f")
 			(effects
 				(font
 					(size 1 1)
@@ -7130,7 +7082,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a323398-f945-41e9-bdba-dbf92937d29e")
+			(uuid "d24c059c-79ad-4489-867e-15c5b7d5f015")
 			(effects
 				(font
 					(size 1 1)
@@ -30927,16 +30879,17 @@
 		)
 		(polygon
 			(pts
-				(xy 144.6 54.6) (xy 151.2 54.6) (xy 151.2 61.2) (xy 144.6 61.2)
+				(xy 144.6 52.7) (xy 163.9 52.7) (xy 163.9 57.5) (xy 151.2 57.5) (xy 151.2 61.2) (xy 144.6 61.2)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 151.143039 54.619685) (xy 151.188794 54.672489) (xy 151.2 54.724) (xy 151.2 61.076) (xy 151.180315 61.143039)
+				(xy 163.843039 52.719685) (xy 163.888794 52.772489) (xy 163.9 52.824) (xy 163.9 57.376) (xy 163.880315 57.443039)
+				(xy 163.827511 57.488794) (xy 163.776 57.5) (xy 151.2 57.5) (xy 151.2 61.076) (xy 151.180315 61.143039)
 				(xy 151.127511 61.188794) (xy 151.076 61.2) (xy 144.724 61.2) (xy 144.656961 61.180315) (xy 144.611206 61.127511)
-				(xy 144.6 61.076) (xy 144.6 54.724) (xy 144.619685 54.656961) (xy 144.672489 54.611206) (xy 144.724 54.6)
-				(xy 151.076 54.6)
+				(xy 144.6 61.076) (xy 144.6 52.824) (xy 144.619685 52.756961) (xy 144.672489 52.711206) (xy 144.724 52.7)
+				(xy 163.776 52.7)
 			)
 		)
 	)
