@@ -26151,7 +26151,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3013SFV-7"
+		(property "Value" "NTMFS002P03P8Z"
 			(at 283.21 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26161,7 +26161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitcrane:POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL"
+		(property "Footprint" "chainaxe:onsemi_DFN5_5x6_SO-8FL"
 			(at 269.367 36.322 0)
 			(hide yes)
 			(show_name no)
@@ -26174,7 +26174,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs002p03p8z-d.pdf"
 			(at 271.272 36.322 0)
 			(hide yes)
 			(show_name no)
@@ -26186,7 +26186,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+		(property "Description" "P-channel MOSFET, -30V, 1.4mOhm max @ Vgs -10V, DFN5 5x6 (SO-8FL); reverse-polarity protection"
 			(at 273.812 41.402 0)
 			(hide yes)
 			(show_name no)
@@ -26219,7 +26219,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C264098"
+		(property "LCSC" "C2902170"
 			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26230,7 +26230,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMP3013SFV-7"
+		(property "MPN" "NTMFS002P03P8ZT1G"
 			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
