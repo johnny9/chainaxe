@@ -6545,7 +6545,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3013SFV-7"
+		(property "Value" "NTMFS002P03P8Z"
 			(at -2.29 3.315 180)
 			(layer "F.Fab")
 			(uuid "fd494157-b11c-418d-b750-92129c59b26e")
@@ -6581,6 +6581,30 @@
 			)
 		)
 		(property "DK" ""
+			(at -1.93 -3.405 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f1a9fe-9b8b-4def-8d8f-5da81c6da0be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "DMP3013SFV-7"
+			(at -1.93 -3.405 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2337db9-54c4-4d5b-b9f3-d186697f2296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6592,7 +6616,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMP3013SFV-7"
+		(property "MPN" "NTMFS002P03P8ZT1G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6628,7 +6652,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C264098"
+		(property "LCSC" "C2902170"
 			(at -1.93 -3.405 0)
 			(unlocked yes)
 			(layer "F.Fab")
