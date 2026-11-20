@@ -6668,6 +6668,31 @@
 				)
 			)
 		)
+		(property "MPN" "NTMFS002P03P8ZT1G"
+			(at -1.93 -3.405 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a1f1c01-3a9d-4457-a0eb-5c2691cdeb36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2902170"
+			(at -1.93 -3.405 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec117554-7689-48c7-96e6-2d61a335b358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "DK" ""
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
@@ -6722,6 +6747,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b129abc9-8fde-4da7-91f1-ead28ae82d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab Placement" "Rotate -90° in the placement file (0 -> -90): the fab's footprint (C2902170) has pins 1-4 on the bottom edge"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58313eb4-aced-477a-b9b4-3516ee0eee06")
 			(effects
 				(font
 					(size 1 1)
@@ -7104,6 +7141,31 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5ae9978-2a0b-44dd-8a45-790126c5dbe6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BZX84C12"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddf75013-b790-4cba-b751-01f76c55e101")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "PARTNO" ""
 			(at 0 0 270)
 			(layer "F.Fab")
@@ -7171,6 +7233,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95f7ea87-9211-45db-a0c8-0414fd1d8f51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab Placement" "Rotate +180° in the placement file (-90 -> 90): the fab's footprint (C19077471) has pin 1 opposite ours"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b51a17ac-8538-4036-82dc-aa59703de484")
 			(effects
 				(font
 					(size 1 1)
@@ -7504,6 +7578,18 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd10487f-4c9b-4784-84e9-e85eeec6a13c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d35e9641-fca8-4072-9a9b-5257abe76086")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
@@ -7724,7 +7810,7 @@
 			(uuid "31aa209d-4e01-42de-bd03-01e9dd6d88b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "648b388b-faf0-462c-85c3-c3a5b3f69a27")
 			(effects
@@ -8352,6 +8438,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C31183817"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e08abb5-1632-4ba6-9824-a484cc6cecce")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241c4917-347b-4a2e-9da8-6044bc5a85cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "TPSM861253RDXR"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -8403,6 +8512,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6d240bb-a500-4c75-8d11-eb538ed71d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab Placement" "Move centroid 0.614 mm toward pins 5-7 in the placement file (Y -113.000 -> -112.386): the fab's footprint (C31183817) origin is between the pad rows, not at the body centre"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99b92bc5-6b4d-46d7-947b-6241f0798b1d")
 			(effects
 				(font
 					(size 1 1)
@@ -10843,6 +10964,18 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c89d469-6dd5-4cfd-a186-4cb9001a8a35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/42f2da70-a793-46ea-96e6-84118994a540")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
@@ -11063,7 +11196,7 @@
 			(uuid "eaa7ffa5-1dc5-484f-bc2e-cc7ddce8cd14")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1e2cf66f-bed0-4d9c-9e00-b50d182b61a6")
 			(effects
@@ -11628,6 +11761,18 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78acef3e-a9ba-4d4c-af2c-d2e25878b9b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6897200e-adda-49b7-8202-781399e5725e")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
@@ -11848,7 +11993,7 @@
 			(uuid "d471d1ce-6f74-4783-b839-98302891d3ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "747980f5-1fb1-47e3-933a-5fa42f318760")
 			(effects
@@ -19379,6 +19524,18 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46bbcb88-cfa4-47bd-a738-34a8e295a728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5716af1a-0491-4d49-af93-5e9b51026640")
 		(sheetname "Root")
 		(sheetfile "chainaxe.kicad_sch")
@@ -19599,7 +19756,7 @@
 			(uuid "d54e64fb-fa6d-45e4-b67f-57e676e05910")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "782ea336-f7d1-42a5-abf5-d0e916dbf800")
 			(effects
