@@ -1,0 +1,71 @@
+{
+  "spec": 1,
+  "title": "Chainaxe ESP32-S3 Antminer hashboard controller",
+  "ship_to": "US",
+  "ship_region": "NC",
+  "parts": [
+    {
+      "name": "Chainaxe control board",
+      "kind": "pcb",
+      "qty": 5,
+      "options": {
+        "layers": 6,
+        "thickness_mm": 1.6,
+        "color": "green",
+        "finish": "enig",
+        "copper_oz": 1
+      },
+      "features": {
+        "width_mm": 110.0,
+        "height_mm": 100.0,
+        "min_drill_mm": 0.3
+      },
+      "files": {
+        "gerbers": "chainaxe/gerbers",
+        "bom": "chainaxe/bom.csv",
+        "positions": "chainaxe/positions.csv"
+      },
+      "assemble": 5
+    }
+  ],
+  "files": {
+    "chainaxe/bom.csv": "8bf5e003ea26adf03f5bcc49192b1e24780ea8b4207f7234f32a519a0356b27b",
+    "chainaxe/gerbers/chainaxe-B_Adhesive.gba": "c34c695b0d040ce0fa3e06385a5dbd30c8a74a462dec325667aaecdbf68d9fe9",
+    "chainaxe/gerbers/chainaxe-B_Courtyard.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-B_Cu.gbl": "b4afb53389f3ea0c325eaa20b982408d076f2762714d286577c968cabf0bbbda",
+    "chainaxe/gerbers/chainaxe-B_Fab.gbr": "e1aee703e5c61a944d114283b29d871ad7ca562fb4e81d748dee13967ed7208d",
+    "chainaxe/gerbers/chainaxe-B_Mask.gbs": "937051816e417cac9e58e7d48594e3570aa0158d1672a46cd7eb2be85ab7258c",
+    "chainaxe/gerbers/chainaxe-B_Paste.gbp": "ab34874943db4dc5391f9c90c45815d6d6731288e1cf2477d2bc20c456963a5c",
+    "chainaxe/gerbers/chainaxe-B_Silkscreen.gbo": "02625fd09340ad2f03810d838c218617209d1f922d2ec602fa62d6f981faa26a",
+    "chainaxe/gerbers/chainaxe-Edge_Cuts.gm1": "c1308fb6f17ecc79dac52dbb7a42b639866be10bea68b5cc3ec3d4f5a65db75b",
+    "chainaxe/gerbers/chainaxe-F_Adhesive.gta": "c532f76862baf31de3c2bc69997bb0d604b586133cd7ffaee54f4fda8a9ac7a3",
+    "chainaxe/gerbers/chainaxe-F_Courtyard.gbr": "64acc4f1376e86c8279eb6a251e989c96e14d9d92d9917cb2dba75ccaa8df5ea",
+    "chainaxe/gerbers/chainaxe-F_Cu.gtl": "319a7d09598dfe752563b83aad220ff3e8e0e8baf20e7bf5fb6fb4073a06cc73",
+    "chainaxe/gerbers/chainaxe-F_Fab.gbr": "faad9995336f67e1dd05b8135b55a5e442d71b2601ec7f55e53154216801dbc1",
+    "chainaxe/gerbers/chainaxe-F_Mask.gts": "c3bb77fbfa4e286c5613a8594b340b5221fea612b26dac2b1b07c9659c7a65cc",
+    "chainaxe/gerbers/chainaxe-F_Paste.gtp": "d02a5ce99039b85aec154c85933b451fc5cb7c703d4a979f8de225f3dadedac3",
+    "chainaxe/gerbers/chainaxe-F_Silkscreen.gto": "f68a01f6af9ddaf12b2ac5e683f03252ccbe3db8509b0767e18df772d3ed7265",
+    "chainaxe/gerbers/chainaxe-In1_Cu.g1": "6182673ca83fabe6d36490064d6289a5f6955eeb89a8b5f3a6ccd809e0af0558",
+    "chainaxe/gerbers/chainaxe-In2_Cu.g2": "0c09c15c8432d3ea991a017665991c4c0ddb67d835efac1e2499d9e7e7db9d3b",
+    "chainaxe/gerbers/chainaxe-In3_Cu.g3": "e638e6d40d3c78bb63a9ed1eeb27f359a29acf2865337a09254069493d9181e3",
+    "chainaxe/gerbers/chainaxe-In4_Cu.g4": "0f78d647b1ae9d55bb0caf67fa0a2402b9474a5ab75266e7fe0283bf1b443a4a",
+    "chainaxe/gerbers/chainaxe-Margin.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-NPTH.drl": "3af1c73c51b0755cbe6442d7c82ddcf49cf966b60f59cda2b92820235cad5b09",
+    "chainaxe/gerbers/chainaxe-PTH.drl": "4009292db60a9b13ea3de25e4d91aeb3b75ea331281f782c832ff49a6dc50853",
+    "chainaxe/gerbers/chainaxe-User_1.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_2.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_3.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_4.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_5.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_6.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_7.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_8.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_9.gbr": "0c717206dda77db0e0f2d2bddc52c3b757827367d8d909961cb1403a1baea3e4",
+    "chainaxe/gerbers/chainaxe-User_Comments.gbr": "f2ca81b2ac58cc8ba1b1ecd704bd580fe721d3c7a6f67c810bda15c57e2fd471",
+    "chainaxe/gerbers/chainaxe-User_Drawings.gbr": "52d08c8376c1fdafd5b5b7348363add0a79eb5bd5f47746b3985008b3c18d964",
+    "chainaxe/gerbers/chainaxe-User_Eco1.gbr": "5d7a42215590e35920ac7a7b080cda5715affc26ab586d66d667fbb472c04b76",
+    "chainaxe/gerbers/chainaxe-User_Eco2.gbr": "2bda6c4cf9cbafb9c8497ce385c2f0423d74a84ac34948741da0375a271a6176",
+    "chainaxe/gerbers/chainaxe-job.gbrjob": "9214d41f853a67a86421c27f462190673b12b8516a45dda4ba033e474df7a7d6",
+    "chainaxe/positions.csv": "2b55a2d52e0ae629b2935337c11d7d17a1ea9fd3b78dcc153c62803a80cc4948"
+  }
+}
