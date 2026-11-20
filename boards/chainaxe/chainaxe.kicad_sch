@@ -21610,6 +21610,12 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "d66df3ae-9cf0-4a2f-bde6-26e5a99d9277")
 		)
@@ -22992,6 +22998,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 64.77 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "1c2d8ba7-0186-4d2d-9841-354f0e387aa3")
@@ -24460,6 +24472,12 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 36.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "ac7ebca2-6bf4-41f8-aed3-9fa3fee2de2c")
 		)
@@ -25580,6 +25598,12 @@
 				)
 			)
 		)
+		(property "Fab Placement" "Move centroid 0.614 mm toward pins 5-7 in the placement file (Y -113.000 -> -112.386): the fab's footprint (C31183817) origin is between the pad rows, not at the body centre"
+			(at 200.66 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "3fe5755e-7769-4d97-938c-ac463d05d8db")
 		)
@@ -26251,6 +26275,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Fab Placement" "Rotate -90° in the placement file (0 -> -90): the fab's footprint (C2902170) has pins 1-4 on the bottom edge"
+			(at 283.21 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "9af750cf-913e-42de-bc3f-bc9b6e2c5c4e")
@@ -27931,6 +27961,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Fab Placement" "Rotate +180° in the placement file (-90 -> 90): the fab's footprint (C19077471) has pin 1 opposite ours"
+			(at 290.83 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "73ec42d1-ab68-45a5-92ef-0ad2eb4fff92")
@@ -30014,6 +30050,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Fab Placement" "Rotate +180° in the placement file (0 -> 180): the fab's footprint (C22379475) has pin 1 opposite ours"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "339ea90a-28d8-45a0-8a4f-db27102e1c1f")
