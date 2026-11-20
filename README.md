@@ -9,7 +9,7 @@ drawing of the original S19 controller, and it talks to up to three hashboards o
 
 ## Board at a glance
 
-- 110 x 100 mm, 4 layers, 1.6 mm, ENIG
+- 110 x 100 mm, 6 layers, 1.6 mm, ENIG
 - ESP32-S3-WROOM-1 (N16R8); console and flashing over native USB-C
 - 3 hashboard data headers (2x9, 2.0 mm), one ESP32 UART each, plus shared I2C
 - 4 fan headers (4.2 mm 2x2, or 2.54 mm 4-pin), PWM driven directly from the ESP32 and tach
