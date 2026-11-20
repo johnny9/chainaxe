@@ -6528,14 +6528,14 @@
 		(layer "F.Cu")
 		(uuid "392c520d-e446-4079-912f-76921a5b17c0")
 		(transform
-			(translate 148.1 57.6)
+			(translate 146.85 57.6)
 			(rotate 0)
 			(scale 1 1)
 		)
 		(descr "onsemi DFN5 5x6 1.27P (SO-8FL) case 506EZ, e.g. NTMFS002P03P8Z; based on KiCad TDSON-8-1 with drain pins 5-8 on the exposed pad (https://www.onsemi.com/pdf/datasheet/ntmfs002p03p8z-d.pdf)")
 		(tags "tdson ")
 		(property "Reference" "Q1"
-			(at 0.097 -4.685 270)
+			(at 1.347 -4.685 270)
 			(layer "F.SilkS")
 			(uuid "e3b9f0ea-cd88-4d83-9233-0ad950ed41ae")
 			(effects
@@ -6546,7 +6546,7 @@
 			)
 		)
 		(property "Value" "DMP3013SFV-7"
-			(at -3.54 3.315 180)
+			(at -2.29 3.315 180)
 			(layer "F.Fab")
 			(uuid "fd494157-b11c-418d-b750-92129c59b26e")
 			(effects
@@ -6557,7 +6557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
-			(at 1.96 3.315 0)
+			(at 3.21 3.315 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6569,7 +6569,7 @@
 			)
 		)
 		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
-			(at 1.96 3.315 0)
+			(at 3.21 3.315 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6584,7 +6584,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8abbbb69-00c5-4f75-9306-8a763e87bd35")
+			(uuid "3ec5d0a9-c515-442d-b4d8-d88f98e9c530")
 			(effects
 				(font
 					(size 1 1)
@@ -6596,7 +6596,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e1ee0b1-ea05-4b6f-9da4-7b662ff58e16")
+			(uuid "86292e95-5b09-4b71-bbd0-aaf7b04d4566")
 			(effects
 				(font
 					(size 1 1)
@@ -6608,7 +6608,7 @@
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "628a6b26-1a61-4022-9576-0575c5fda193")
+			(uuid "aa41078d-2db5-4b10-b790-bc20c5aa79f5")
 			(effects
 				(font
 					(size 1 1)
@@ -6620,7 +6620,7 @@
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93e64892-03c7-4c71-9af9-356f8ab4b52a")
+			(uuid "e9f13825-e357-48ee-a308-be590571253f")
 			(effects
 				(font
 					(size 1 1)
@@ -6633,7 +6633,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82038ced-a395-4c6b-a0e7-cd9e572f79c9")
+			(uuid "21fa989b-be93-49c9-aea1-627d9fc94d91")
 			(effects
 				(font
 					(size 1 1)
@@ -6645,7 +6645,7 @@
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "feb6b5ba-e977-454c-bdad-7aa17d3d2bcf")
+			(uuid "01e259d1-385c-42ab-85cf-bd3162c79618")
 			(effects
 				(font
 					(size 1 1)
@@ -6657,7 +6657,7 @@
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b87cf100-6f7d-4ebb-87ce-4de852d0ce94")
+			(uuid "b129abc9-8fde-4da7-91f1-ead28ae82d19")
 			(effects
 				(font
 					(size 1 1)
