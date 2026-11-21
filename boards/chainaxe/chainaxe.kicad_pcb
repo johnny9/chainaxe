@@ -6672,7 +6672,7 @@
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a1f1c01-3a9d-4457-a0eb-5c2691cdeb36")
+			(uuid "c2337db9-54c4-4d5b-b9f3-d186697f2296")
 			(effects
 				(font
 					(size 1 1)
@@ -6685,7 +6685,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec117554-7689-48c7-96e6-2d61a335b358")
+			(uuid "21fa989b-be93-49c9-aea1-627d9fc94d91")
 			(effects
 				(font
 					(size 1 1)
@@ -6705,36 +6705,11 @@
 				)
 			)
 		)
-		(property "MPN" "NTMFS002P03P8ZT1G"
-			(at -1.93 -3.405 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2337db9-54c4-4d5b-b9f3-d186697f2296")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PARTNO" ""
 			(at -1.93 -3.405 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa41078d-2db5-4b10-b790-bc20c5aa79f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2902170"
-			(at -1.93 -3.405 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21fa989b-be93-49c9-aea1-627d9fc94d91")
 			(effects
 				(font
 					(size 1 1)
@@ -7146,7 +7121,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5ae9978-2a0b-44dd-8a45-790126c5dbe6")
+			(uuid "4e35332b-a84c-4374-b651-b57d0042b02c")
 			(effects
 				(font
 					(size 1 1)
@@ -7158,7 +7133,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddf75013-b790-4cba-b751-01f76c55e101")
+			(uuid "92825a1e-e043-4d5f-9db7-85d5d5813a5f")
 			(effects
 				(font
 					(size 1 1)
@@ -7190,37 +7165,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e35332b-a84c-4374-b651-b57d0042b02c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C19077471"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25095257-f676-4051-814f-9b74049f8b54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "BZX84C12"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92825a1e-e043-4d5f-9db7-85d5d5813a5f")
 			(effects
 				(font
 					(size 1 1)
@@ -8442,7 +8392,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e08abb5-1632-4ba6-9824-a484cc6cecce")
+			(uuid "9b0ffece-b1ad-421a-9cc6-054269defd38")
 			(effects
 				(font
 					(size 1 1)
@@ -8453,7 +8403,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "241c4917-347b-4a2e-9da8-6044bc5a85cb")
+			(uuid "aaa010af-0529-4b5f-a40b-79206906e310")
 			(effects
 				(font
 					(size 1 1)
@@ -8472,34 +8422,11 @@
 				)
 			)
 		)
-		(property "LCSC" "C31183817"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b0ffece-b1ad-421a-9cc6-054269defd38")
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
 		(property "DK" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4588a6dd-b51c-460b-9f1c-1f0b9e54e02e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aaa010af-0529-4b5f-a40b-79206906e310")
 			(effects
 				(font
 					(size 1 1)
@@ -19857,6 +19784,28 @@
 				)
 			)
 		)
+		(property "DK" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c916b0c5-4936-408f-8807-19e3c658c7c8")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C2913202"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97fddfc2-d892-4911-9a7e-0f0e613fe50d")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
 		(property "PARTNO" ""
 			(at 0 0 180)
 			(layer "F.Fab")
@@ -19906,6 +19855,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b587e95-d644-4464-8770-918e4d6dc892")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab Placement" "Move centroid 0.635 mm toward pins 15-26 in the placement file (Y -118.500 -> -117.865): the fab's footprint (C2913202) origin is not at the pad-column centre"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca60e61c-66cc-43d0-b7ef-968b322ebbf0")
 			(effects
 				(font
 					(size 1 1)

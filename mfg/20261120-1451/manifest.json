@@ -66,10 +66,11 @@
     "chainaxe/gerbers/chainaxe-User_Eco1.gbr": "5d7a42215590e35920ac7a7b080cda5715affc26ab586d66d667fbb472c04b76",
     "chainaxe/gerbers/chainaxe-User_Eco2.gbr": "2bda6c4cf9cbafb9c8497ce385c2f0423d74a84ac34948741da0375a271a6176",
     "chainaxe/gerbers/chainaxe-job.gbrjob": "9214d41f853a67a86421c27f462190673b12b8516a45dda4ba033e474df7a7d6",
-    "chainaxe/positions.csv": "cf857e7e9777c8ee7769ad3f90651e9e784717fbd5417451234f69838a2b3e93"
+    "chainaxe/positions.csv": "06d8ed382f60e9c4e8faa85e5e3b4d1f9ef0a8c0868ec1924cf557172c4ed830"
   },
   "notes": [
     "U2 (TPSM861253RDXR, C31183817): centroid moved 0.614 mm toward pins 5-7 (Y -113.000 -> -112.386) so the fab's footprint, whose origin is between the pad rows rather than at the body centre, lands on the copper.",
-    "Q1 0->-90, Q2-Q5 0->180, D1 -90->90: rotations set so the fab's footprints for C2902170, C22379475 and C19077471 (pin 1 placed differently from ours) land pin-for-pin on the copper."
+    "Q1 0->-90, Q2-Q5 0->180, D1 -90->90: rotations set so the fab's footprints for C2902170, C22379475 and C19077471 (pin 1 placed differently from ours) land pin-for-pin on the copper.",
+    "U1 (ESP32-S3-WROOM-1, C2913202): centroid moved 0.635 mm toward pins 15-26 (Y -118.500 -> -117.865): the fab's footprint origin is 0.635 mm off ours. Confirmed against the fab engineer's adjusted placement for order SMT026112064762, which also matches every other correction here."
   ]
 }
